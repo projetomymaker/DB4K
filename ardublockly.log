@@ -1,0 +1,3491 @@
+2017-05-16T01:51:40.730Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T01:51:40.730Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T01:51:40.730Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T01:51:41.074Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T01:52:38.078Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: open
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T02:08:28.394Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T02:08:28.410Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T02:08:28.410Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T02:08:28.879Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T02:11:18.864Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: open
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T02:18:52.859Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T02:18:52.859Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T02:18:52.859Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T02:18:52.984Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T02:19:22.961Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: open
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T02:25:51.081Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T02:25:51.081Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T02:25:51.081Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T02:25:51.128Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T02:26:20.811Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: open
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T02:31:39.436Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T02:31:39.452Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T02:31:39.452Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T02:31:39.546Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T02:31:42.701Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: open
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T02:31:42.702Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T02:31:46.177Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.178Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.179Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.182Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.183Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.184Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.198Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:31:46.199Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T02:32:01.046Z - info: [ArdublocklySrv] Serving on http://DESKTOP-OF0OQIA:8001
+Serving on http://DESKTOP-OF0OQIA:8001
+IDE options set to:
+	Verify sketch
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T02:32:01.135Z - info: [ArdublocklySrv] There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T02:33:27.331Z - info: [ServerMgr] Server stopped.
+2017-05-16T15:04:10.720Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T15:04:10.720Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T15:04:10.735Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T15:04:10.829Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T15:04:12.776Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T15:04:12.777Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T15:04:17.330Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.332Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.333Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.334Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.336Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.338Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.354Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:17.356Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:04:24.374Z - info: [ServerMgr] Server stopped.
+2017-05-16T15:07:41.791Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T15:07:41.791Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T15:07:41.791Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T15:07:41.885Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T15:07:43.364Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T15:07:43.365Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T15:07:45.322Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.323Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.323Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.324Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.325Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.326Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.336Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:45.338Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:07:56.454Z - info: [ServerMgr] Server stopped.
+2017-05-16T15:09:26.478Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T15:09:26.478Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T15:09:26.478Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T15:09:26.572Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T15:09:27.939Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T15:09:27.940Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T15:09:32.740Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.742Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.744Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.746Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.748Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.750Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.766Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T15:09:32.768Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T17:30:36.482Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T17:30:36.485Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T17:30:36.485Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T17:30:36.553Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T17:30:43.133Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T17:42:43.813Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T17:42:43.813Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T17:42:43.813Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T17:42:43.875Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T17:42:48.283Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T17:50:10.855Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T17:50:10.855Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T17:50:10.855Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T17:50:10.933Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T17:51:57.890Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T17:55:58.716Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T17:55:58.718Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T17:55:58.718Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T17:55:58.816Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T17:56:06.328Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:00:10.579Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:00:10.582Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:00:10.582Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:00:10.652Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:00:12.159Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:00:12.161Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:00:15.543Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.544Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.545Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.546Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.547Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.548Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.558Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:15.559Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:19.891Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:00:34.625Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:00:34.629Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:00:34.629Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:00:34.795Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:00:37.196Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:00:37.197Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:00:39.460Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.461Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.461Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.462Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.463Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.463Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.472Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:39.473Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:00:48.507Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:04:08.036Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:04:08.039Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:04:08.039Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:04:08.130Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:04:09.847Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:04:09.849Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:04:13.146Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.148Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.149Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.152Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.153Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.154Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.163Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:13.164Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:04:22.625Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:19:49.339Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:19:49.343Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:19:49.344Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:19:49.464Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:19:51.901Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:19:51.902Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:19:55.148Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.151Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.152Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.153Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.154Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.155Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.163Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:19:55.164Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:20:04.409Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:23:51.767Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:23:51.770Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:23:51.770Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:23:51.898Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:23:59.213Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:28:58.367Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:28:58.367Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:28:58.367Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:28:58.492Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:29:01.405Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:29:01.408Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:29:04.998Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.000Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.002Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.004Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.006Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.008Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.027Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:05.029Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:29:11.797Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:31:29.707Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:31:29.707Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:31:29.707Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:31:29.801Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:31:31.273Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:31:32.578Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.581Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.582Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.583Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.584Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.585Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.594Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:31:32.595Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:34.191Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:38:34.207Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:38:34.207Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:38:34.285Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:38:36.612Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:38:36.613Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:38:37.387Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.388Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.389Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.389Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.390Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.391Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.394Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:38:37.395Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:40:14.611Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:47:11.674Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:47:11.674Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:47:11.674Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:47:11.783Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:47:20.097Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:49:19.705Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:49:19.705Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:49:19.705Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:49:19.846Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:49:22.284Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:49:22.287Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:49:23.848Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.850Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.853Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.855Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.856Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.857Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.861Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:23.862Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:28.526Z - info: [ArdublocklySrv] Serving on http://DESKTOP-OF0OQIA:8001
+Serving on http://DESKTOP-OF0OQIA:8001
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:49:36.071Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.073Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.075Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.076Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.078Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.079Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.084Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:49:36.086Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:50:01.952Z - info: [ArdublocklySrv] There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:50:59.909Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:53:29.348Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:53:29.348Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:53:29.348Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:53:29.458Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:53:31.520Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Documents\A - Novo DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T18:53:31.520Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:53:33.142Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.143Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.144Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.145Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.146Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.146Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.151Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:53:33.153Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:54:32.607Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:55:32.638Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T18:55:32.638Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T18:55:32.638Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T18:55:32.716Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T18:55:33.903Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Settings file sketch directory is not valid:
+	C:\Users\ruben\Documents\A - Novo DB4K
+Default Sketch directory set:
+	C:\Users\ruben\Novo_DB4K
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T18:55:36.281Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.283Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.284Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.285Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.286Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.287Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.292Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:55:36.293Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T18:57:29.567Z - info: [ServerMgr] Server stopped.
+2017-05-16T18:57:29.614Z - info: [ArdublocklySrv] Process exited with code null
+2017-05-16T20:39:38.111Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:39:38.126Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:39:38.126Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:39:38.205Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:39:40.832Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:39:40.835Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:39:43.183Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.184Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.187Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.189Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.190Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.191Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.197Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:39:43.199Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:40:15.410Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:41:09.358Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:41:09.358Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:41:09.358Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:41:09.452Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:41:11.642Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:41:11.644Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:41:13.017Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.018Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.020Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.021Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.021Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.022Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.026Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:13.027Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:41:16.242Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:42:39.822Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:42:39.822Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:42:39.822Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:42:39.962Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:42:42.107Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:42:42.109Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:42:43.581Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.583Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.584Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.584Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.585Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.586Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.592Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:42:43.594Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:43:26.474Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:44:08.486Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:44:08.501Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:44:08.501Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:44:08.611Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:44:10.947Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:44:10.949Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:44:12.355Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.356Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.357Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.358Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.359Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.360Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.363Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:12.365Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:44:59.358Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:45:29.933Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:45:29.949Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:45:29.949Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:45:30.058Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:45:32.329Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:45:32.331Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:45:33.680Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.682Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.683Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.685Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.686Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.687Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.691Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:33.692Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.150Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.153Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.154Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.156Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.158Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.160Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.166Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:43.167Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.256Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.258Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.260Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.262Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.264Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.266Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.272Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:45:54.273Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:46:06.889Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:52:58.216Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:52:58.216Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:52:58.216Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:52:58.325Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:53:00.383Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:53:00.384Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:53:01.989Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:01.991Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:01.992Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:01.993Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:01.994Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:01.995Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:02.000Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:02.001Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.118Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.120Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.122Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.124Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.126Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.128Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.147Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:53:08.150Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:54:20.497Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:54:48.737Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:54:48.753Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:54:48.753Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:54:48.878Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:54:51.223Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:54:51.226Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:54:55.780Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:55:16.921Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:55:16.936Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:55:16.936Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:55:17.061Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:55:19.491Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:55:19.493Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:55:23.814Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:55:39.187Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:55:39.202Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:55:39.202Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:55:39.312Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:55:41.706Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:55:41.708Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:55:43.381Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.383Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.384Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.385Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.386Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.389Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.393Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:43.394Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:55:54.601Z - info: [ServerMgr] Server stopped.
+2017-05-16T20:56:12.138Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T20:56:12.138Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T20:56:12.138Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T20:56:12.247Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T20:56:14.819Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T20:56:14.821Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T20:56:16.365Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.366Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.369Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.371Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.372Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.374Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.379Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:16.380Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T20:56:37.705Z - info: [ServerMgr] Server stopped.
+2017-05-16T21:02:08.237Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T21:02:08.237Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T21:02:08.237Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T21:02:08.346Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T21:02:10.780Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T21:02:10.782Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T21:02:11.991Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:11.992Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:11.994Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:11.996Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:11.997Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:11.998Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:12.001Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:12.002Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:56.996Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.000Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.000Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.004Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.004Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.008Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.028Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:02:57.032Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:03:12.780Z - info: [ServerMgr] Server stopped.
+2017-05-16T21:04:18.850Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-16T21:04:18.850Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-16T21:04:18.850Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-16T21:04:18.975Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-16T21:04:21.393Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: verify
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-16T21:04:21.395Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-16T21:04:23.636Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.638Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.639Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.640Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.640Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.641Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.654Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:23.655Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-16T21:04:46.311Z - info: [ServerMgr] Server stopped.
+2017-05-17T02:42:12.339Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T02:42:12.341Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T02:42:12.341Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T02:42:12.424Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T02:42:14.945Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T02:42:14.946Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T02:42:17.260Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.262Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.263Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.264Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.265Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.266Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.273Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:42:17.275Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T02:43:51.869Z - info: [ServerMgr] Server stopped.
+2017-05-17T03:07:58.075Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T03:07:58.075Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T03:07:58.075Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T03:07:58.216Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T03:08:00.335Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T03:08:00.336Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T03:08:02.462Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.463Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.464Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.465Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.466Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.467Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.469Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:02.472Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:08:59.674Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T03:08:59.674Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T03:08:59.674Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T03:08:59.799Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T03:09:02.104Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T03:09:02.106Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T03:09:03.903Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.904Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.905Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.906Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.907Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.907Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.910Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:09:03.911Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:12:54.650Z - info: [ServerMgr] Server stopped.
+2017-05-17T03:16:52.303Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T03:16:52.303Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T03:16:52.303Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T03:16:52.366Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T03:16:53.760Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T03:16:53.760Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T03:16:56.599Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.601Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.602Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.603Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.604Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.604Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.616Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:16:56.617Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:19:08.767Z - info: [ServerMgr] Server stopped.
+2017-05-17T03:19:08.818Z - info: [ArdublocklySrv] Process exited with code null
+2017-05-17T03:21:12.226Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T03:21:12.242Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T03:21:12.242Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T03:21:12.320Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T03:21:13.670Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T03:21:13.671Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T03:21:16.024Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.026Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.027Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.029Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.030Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.031Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.042Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:21:16.043Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:23:24.904Z - info: [ServerMgr] Server stopped.
+2017-05-17T03:25:19.341Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T03:25:19.341Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T03:25:19.341Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T03:25:19.466Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T03:25:20.804Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T03:25:20.804Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T03:25:23.143Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.146Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.147Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.148Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.148Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.149Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.153Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:25:23.154Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:28:34.758Z - info: [ServerMgr] Server stopped.
+2017-05-17T03:37:24.843Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-17T03:37:24.843Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-17T03:37:24.843Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-17T03:37:24.905Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-17T03:37:26.077Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-17T03:37:26.077Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-17T03:37:29.085Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.086Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.088Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.090Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.091Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.092Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.101Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:29.102Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-17T03:37:42.779Z - info: [ServerMgr] Server stopped.
+2017-05-18T01:08:51.984Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T01:08:51.984Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T01:08:51.984Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T01:08:52.109Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T01:09:01.142Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T01:09:01.145Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T01:09:05.085Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.086Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.087Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.088Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.089Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.090Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.097Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:05.097Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:09:28.955Z - info: [ServerMgr] Server stopped.
+2017-05-18T01:13:51.289Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T01:13:51.289Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T01:13:51.289Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T01:13:51.383Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T01:13:54.649Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T01:13:54.650Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T01:13:58.321Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.322Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.323Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.324Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.324Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.325Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.336Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:13:58.337Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:14:05.516Z - info: [ServerMgr] Server stopped.
+2017-05-18T01:16:31.228Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T01:16:31.228Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T01:16:31.228Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T01:16:31.306Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T01:16:34.623Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T01:16:34.624Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T01:16:40.032Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.034Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.035Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.036Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.038Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.039Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.056Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:40.058Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T01:16:52.566Z - info: [ServerMgr] Server stopped.
+2017-05-18T01:22:01.349Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T01:22:01.349Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T01:22:01.349Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T01:22:01.412Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T01:22:02.802Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T01:22:02.802Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T01:22:32.852Z - info: [ServerMgr] Server stopped.
+2017-05-18T01:36:28.453Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T01:36:28.453Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T01:36:28.453Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T01:36:28.500Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T01:36:29.563Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T01:36:29.563Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T01:36:57.465Z - info: [ServerMgr] Server stopped.
+2017-05-18T02:02:07.619Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T02:02:07.619Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T02:02:07.619Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T02:02:07.884Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T02:02:16.491Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T02:02:16.494Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T02:02:24.066Z - info: [ServerMgr] Server stopped.
+2017-05-18T02:02:57.740Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T02:02:57.755Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T02:02:57.755Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T02:02:57.849Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T02:03:02.364Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T02:03:08.329Z - info: [ServerMgr] Server stopped.
+2017-05-18T18:55:07.203Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T18:55:07.203Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T18:55:07.203Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T18:55:07.250Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T18:55:09.583Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T18:55:09.585Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T18:55:17.643Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:02:40.879Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:02:40.879Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:02:40.879Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:02:40.926Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:02:41.982Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:02:41.983Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:02:45.778Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:14:49.505Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:14:49.505Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:14:49.505Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:14:49.552Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:14:50.515Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:14:50.515Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:15:13.047Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:15:42.096Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:15:42.096Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:15:42.096Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:15:42.159Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:15:43.146Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:15:43.151Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:16:00.751Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:22:22.725Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:22:22.725Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:22:22.725Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:22:22.772Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:22:24.425Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:22:24.426Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:22:31.961Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:29:36.423Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:29:36.423Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:29:36.423Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:29:36.486Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:29:41.314Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:30:10.045Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:34:49.146Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:34:49.146Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:34:49.146Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:34:49.208Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:34:52.553Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:34:58.519Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:34:58.577Z - info: [ArdublocklySrv] Process exited with code null
+2017-05-18T19:35:37.630Z - info: [ArdublocklyElec] Starting Ardublockly version: 3.0.0
+2017-05-18T19:35:37.630Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:35:37.630Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:35:37.677Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:35:41.058Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:35:41.059Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:35:46.073Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:38:19.358Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T19:38:19.358Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:38:19.358Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:38:19.421Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:38:22.953Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:38:27.445Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.446Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.447Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.448Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.448Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.449Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.455Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:27.455Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:38:40.445Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:44:17.017Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T19:44:17.017Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:44:17.017Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:44:17.063Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:44:18.079Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:44:18.079Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:44:30.656Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:46:11.090Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T19:46:11.090Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:46:11.090Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:46:11.153Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:46:14.488Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:46:14.489Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:46:17.864Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.865Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.866Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.868Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.869Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.869Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.873Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:17.873Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:46:24.201Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:47:42.325Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T19:47:42.325Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:47:42.325Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:47:42.371Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:47:43.778Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:47:43.778Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:47:53.104Z - info: [ServerMgr] Server stopped.
+2017-05-18T19:49:16.480Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.3-a
+2017-05-18T19:49:16.496Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\ruben\Novo_DB4K
+2017-05-18T19:49:16.496Z - info: [ArdublocklyElec] OS detected: win32
+2017-05-18T19:49:16.558Z - info: [ServerMgr] Command: C:\Users\ruben\Novo_DB4K\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-05-18T19:49:17.886Z - info: [ArdublocklySrv] Running Python 3.4.4 (64 bit) on Windows-10-10.0.14393-SP0
+Not using local-packages, likely running packaged.
+
+======= Parsing Command line arguments =======
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	C:\Users\ruben\Novo_DB4K
+Current working directory set to:
+	C:\Users\ruben\Novo_DB4K
+Selected server root:
+	C:\Users\ruben\Novo_DB4K
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino_debug.exe
+	Arduino Board Key: Mega
+	Arduino Board Value: arduino:avr:mega
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\ruben\Novo_DB4K
+	Load IDE option: upload
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:49:17.886Z - info: [ArdublocklySrv] 
+======= Starting Server =======
+Setting HTTP Server Document Root to:
+	C:\Users\ruben\Novo_DB4K
+Launch Server:
+
+2017-05-18T19:49:23.865Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.867Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.868Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.870Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.872Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.873Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.890Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:23.891Z - info: [Renderer "http://localhost:8001/ardublockly/ardublockly_lang.js:Ardublockly.getLocalStr():L180"] Localised text string ID "null" does not exists!
+2017-05-18T19:49:37.832Z - info: [ArdublocklySrv] Serving on http://DESKTOP-OF0OQIA:8001
+Serving on http://DESKTOP-OF0OQIA:8001
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:49:37.932Z - info: [ArdublocklySrv] There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:49:38.045Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino_debug.exe C:\Users\ruben\Novo_DB4K\ArdublocklySketch\ArdublocklySketch.ino
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:49:43.258Z - error: [ArdublocklySrv] Carregando configura��o...
+
+2017-05-18T19:49:43.258Z - error: [ArdublocklySrv] Inicializando pacotes...
+
+2017-05-18T19:49:44.602Z - error: [ArdublocklySrv] Preparando placas...
+
+2017-05-18T19:49:45.165Z - error: [ArdublocklySrv] Iniciando...
+
+2017-05-18T19:50:48.953Z - error: [ArdublocklySrv] Using proxy DIRECT
+2017-05-18T19:50:48.953Z - error: [ArdublocklySrv] 
+
+2017-05-18T19:50:50.390Z - error: [ArdublocklySrv] Using proxy DIRECT
+
+2017-05-18T19:50:50.593Z - error: [ArdublocklySrv] Using proxy DIRECT
+
+2017-05-18T19:53:41.010Z - info: [ArdublocklySrv] The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:53:49.130Z - info: [ArdublocklySrv] The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:54:02.142Z - info: [ArdublocklySrv] The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:54:05.450Z - info: [ArdublocklySrv] Serial Port set to:
+	COM3
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:55:05.034Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino_debug.exe C:\Users\ruben\Novo_DB4K\ArdublocklySketch\ArdublocklySketch.ino --upload --port COM3 --board arduino:avr:mega
+Arduino output:
+O sketch usa 2396 bytes (0%) de espa�o de armazenamento para programas. O m�ximo s�o 253952 bytes.
+Vari�veis globais usam 57 bytes (0%) de mem�ria din�mica, deixando 8135 bytes para vari�veis locais. O m�ximo s�o 8192 bytes.
+
+Arduino Error output:
+Carregando configura��o...
+Inicializando pacotes...
+Preparando placas...
+Verificando...
+Carregando...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino_debug.exe C:\Users\ruben\Novo_DB4K\ArdublocklySketch\ArdublocklySketch.ino --upload --port COM3 --board arduino:avr:mega
+Arduino output:
+O sketch usa 1470 bytes (0%) de espa�o de armazenamento para programas. O m�ximo s�o 253952 bytes.
+Vari�veis globais usam 9 bytes (0%) de mem�ria din�mica, deixando 8183 bytes para vari�veis locais. O m�ximo s�o 8192 bytes.
+
+Arduino Error output:
+Carregando configura��o...
+Inicializando pacotes...
+Preparando placas...
+Verificando...
+Carregando...
+
+Arduino Exit code: 0
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:55:05.081Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino_debug.exe C:\Users\ruben\Novo_DB4K\ArdublocklySketch\ArdublocklySketch.ino
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:55:06.139Z - error: [ArdublocklySrv] Carregando configura��o...
+
+2017-05-18T19:55:06.142Z - error: [ArdublocklySrv] Inicializando pacotes...
+
+2017-05-18T19:55:07.660Z - error: [ArdublocklySrv] Preparando placas...
+
+2017-05-18T19:55:08.048Z - error: [ArdublocklySrv] Iniciando...
+
+2017-05-18T19:55:16.780Z - info: [ArdublocklySrv] IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:55:16.829Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino_debug.exe C:\Users\ruben\Novo_DB4K\ArdublocklySketch\ArdublocklySketch.ino
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\ruben\Novo_DB4K\ServerCompilerSettings.ini
+
+2017-05-18T19:55:17.859Z - error: [ArdublocklySrv] Carregando configura��o...
+
+2017-05-18T19:55:17.867Z - error: [ArdublocklySrv] Inicializando pacotes...
+
+2017-05-18T19:55:19.346Z - error: [ArdublocklySrv] Preparando placas...
+
+2017-05-18T19:55:19.735Z - error: [ArdublocklySrv] Iniciando...
+
+2017-05-18T19:56:09.600Z - error: [ArdublocklySrv] Using proxy DIRECT
+2017-05-18T19:56:09.600Z - error: [ArdublocklySrv] 
+
+2017-05-18T19:56:13.063Z - error: [ArdublocklySrv] Using proxy DIRECT
+2017-05-18T19:56:13.063Z - error: [ArdublocklySrv] 
+
+2017-05-18T19:56:13.258Z - error: [ArdublocklySrv] Using proxy DIRECT
+2017-05-18T19:56:13.259Z - error: [ArdublocklySrv] 
+
+2017-05-18T19:56:23.890Z - info: [ServerMgr] Server stopped.

@@ -1,0 +1,844 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="pt-br" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Para instalar e utilizar o Duino</title>
+<style type="text/css">
+.auto-style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin-left: 40px;
+}
+.auto-style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin-left: 40px;
+}
+.auto-style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 40px;
+}
+.auto-style4 {
+	font-size: medium;
+}
+.auto-style5 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style6 {
+	margin-left: 40px;
+}
+ table.MsoNormalTable
+	{line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+.auto-style7 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	margin-left: 40px;
+}
+.auto-style8 {
+	text-align: center;
+}
+.auto-style9 {
+	white-space: nowrap;
+	background-color: #FFCCCC;
+}
+.auto-style10 {
+	white-space: nowrap;
+	background-color: #FFFFFF;
+}
+.auto-style11 {
+	white-space: nowrap;
+	background-color: #CCFFCC;
+}
+</style>
+</head>
+
+<body>
+
+<p class="auto-style1"><strong>Para instalar e utilizar o DuinoBlocks for Kids 
+Client Side versão Beta 4.0.0</strong></p>
+<p class="auto-style2"><em>&nbsp;(Esta é uma aplicação ainda em fase de testes)</em></p>
+<p class="auto-style2">&nbsp;</p>
+<ol class="auto-style5">
+	<li>
+	<p class="auto-style3">Baixe e instale o Interpretador <strong>Python 3.4.4&nbsp; 
+	(</strong><a href="https://www.python.org/downloads/release/python-344/"><span class="auto-style4">https://www.python.org/downloads/release/python-344/</span></a><strong>)&nbsp; </strong><span class="auto-style4">
+	(No Ubuntu o Software Arduino Já verm previamente instalado)</span></p>
+	</li>
+	<li>
+	<p class="auto-style3"><span class="auto-style4">Baixe e instale o 
+	Software <strong>Arduino 1.6.8 ou Superior </strong>(<a href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>) 
+	(No Ubuntu o Software Arduino Já verm previamente instalado)</span></p>
+	</li>
+	<li>
+	<p class="auto-style3"><span class="auto-style4">Baixe e descompacte o 
+	arquivo <strong>DB4K-CS-Beta.zi </strong>(<a href="http://www.nce.ufrj.br/ginape/livre/paginas/projetos.html">http://www.nce.ufrj.br/ginape/livre/paginas/projetos/db4k.html</a>) 
+	</span></p>
+	</li>
+	<li>
+	<p class="auto-style3"><span class="auto-style4">Copie as pastas <strong>
+	Ultrasonic</strong> e <strong>Thermistor</strong> presentes na pasta <strong>
+	Bibliotecas Arduino </strong>do pacote de 
+	instalação do DB4K para a pasta <strong>libraries</strong> localizada<strong> 
+	dentro da pasta do Software Arduino</strong>. Essas pastas contêm as bibliotecas 
+	necessárias para se utilizar os <strong>sensores de distância e de 
+	temperatura</strong>.</span></p>
+	</li>
+	<li>
+	<p class="auto-style7">Copie a Pasta <strong>DB4K-CS </strong>para um local 
+	de sua preferência</p>
+	</li>
+	<li>
+	<p class="auto-style7">A aplicalção é disparada por meio do aquivo <strong>
+	start.py</strong> presente na pasta <strong>DB4K-CS</strong>. O DB4K irá abrir no navegador 
+	padrão. Sugerimos o uso do <strong>Google Chrome</strong>, mas, outros 
+	navegadores podem ser utilizados.</p>
+	</li>
+	<li>
+	<p class="auto-style3"><span class="auto-style4">Faça as configurações 
+	iniciais do ambiente. Entre na opção de menu &lt;<strong>Configurações</strong>&gt; 
+	e&nbsp; na Janela que abre, 
+	especifique:<br />
+	<br />
+	-<strong> A localização do compilador Arduino: </strong>Você deve digitar o 
+	caminho completo até o arquvivo <strong>arduino_debug (windows) ou Arduino 
+	(Linux) </strong>, presente da 
+	pasta onde o Software Arduino foi instalado.&nbsp; Exemplo: Windows:&nbsp; 
+	C:\Program Files (x86)\Arduino\arduino_debug.exe&nbsp; |&nbsp; Linux:&nbsp; 
+	/opt/arduino-1.6.8/arduino<br />
+	</span>&nbsp;<span class="auto-style4"><br />
+	- <strong>A pasta do Projeto: </strong>Você deve digitar o caminho completo 
+	até a pasta<strong> DB4K-CS. </strong>Ex: Windows: C:\DB4K-CS | Linux: 
+	/home/meunome/DB4K-SA</span></p>
+	</li>
+	<li>
+	<p class="auto-style3">Configure a Placa Arduino e a porta COM a serem 
+	utilizadas <br />
+	<br />
+	<span class="auto-style4">Entre na opção de menu &lt;<strong>Configurações</strong>&gt; 
+	e&nbsp; na Janela que abre, 
+	especifique:</span>:<br />
+	&nbsp;<br />
+	- <strong>A Placa Arduino</strong> desejada<br />
+	- <strong>A</strong> <strong>Porta COM </strong>a ser utilizada<br />
+	<br />
+	<strong>Obs</strong>. &nbsp;Para se certificar de que o DB4K configurou a porta 
+	COM adequadamente, clique sobre o nome da porta mesmo que ela já tenha sido 
+	definida automaticamente pelo DB4K.</p>
+	</li>
+	<li>
+	<p class="auto-style3">Caso deseje <span class="auto-style4">&nbsp;modificar 
+	os <strong>números dos pinos utilizados pelos atuadores e sensores,</strong> 
+	edite os valores desses pinos no aquivo&nbsp; DB4K-CS\DB4K\<strong>db4k_setup.js</strong>.&nbsp; 
+	(Este arquivo pode ser editado utilizando-se programas como o Bloco de 
+	Notas, o&nbsp; Notepad++ ou o Gedit).<br />
+	<br />
+	Obs <strong>IMPORTANTE</strong>: após modificar os valores dos pinos, ao 
+	rodar o DB4K, é necessário fazer um "reload" da aplicação. Para tanto, 
+	utilize a opção de menu&nbsp; &lt;<strong>atualizar 
+	pinos</strong>&gt;</span></p>
+	</li>
+	<li>
+	<p class="auto-style3">Existem duas possibilidades de programação dos 
+	sensores de reflexo (leitura digital ou analógica) para modificar o código 
+	gerado pelo bloco do sensor, você deve modificar o atributo que define o 
+	tipo de leitura no arquivo <span class="auto-style4">DB4K-SA\ardublockly\<strong>db4k_setup.js
+	</strong>e depois fazer um reload da aplicação&nbsp; utilizando a opção de menu&nbsp; 
+	&lt;<strong>atualizar pinos</strong>&gt;</span></p>
+	</li>
+	<li>
+	<p class="auto-style3">
+	<span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+	Existem duas possibilidades de uso da biblioteca Ultrassonic. Caso você 
+	tenha problemas no uso da biblioteca instalada no seu computador, tente 
+	trocar a opção de biblioteca para o sensor de distância no arquivo<span>&nbsp;</span></span><span class="auto-style4" style="font-size: medium; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">DB4K-SA\ardublockly\<strong>db4k_setup.js&nbsp;<span>&nbsp;</span></strong>e 
+	depois fazer um reload da aplicação&nbsp; utilizando a opção de menu&nbsp;<span>&nbsp;</span><strong>&lt;atualizar 
+	pinos&gt;</strong></span><br /></p>
+	</li>
+	<li>
+	<p class="auto-style3"><strong>Para carregar um programa </strong>na placa 
+	Arduino selecionada, você deve montar o programa em blocos e apertar o botão 
+	laranja presente na parte superior da área de blocos. Esse botão envia o 
+	programa diretamente para a placa Arduino configurada anteriormente.<br />
+	&nbsp;<br />
+	Enquanto o programa estiver sendo enviado o botão de envio ficará cinza. É 
+	possível que o programa leve, em algumas situações, cerca de um minuto ou 
+	mais para ser carregado. <br />
+	<br />
+	Existe uma área na parte inferior da janela do programa, chamada: Mensagens 
+	IDE Arduino, onde podem ser vistas as mensagens enviadas pela IDE.</p>
+	</li>
+	<li>
+	<p class="auto-style7"><strong>Lista de Pinagens</strong> utilizadas pelo 
+	DB4K<br />
+	<br />
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="font-family: &quot;Times New Roman&quot;; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; width: 623pt; margin-left: -0.5pt; border-collapse: collapse;" width="831">
+	<tbody class="auto-style6">
+	<tr style="height: 15pt;">
+		<td nowrap style="width: 73pt; border: 1pt solid windowtext; background: yellow; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">Componenete</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 69pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="92">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<b><span style="color: black;">Pino Arduino<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">Componenete</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">LED<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="92">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<b><span style="color: black;">Pino Arduino<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">Componenete</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">Sinal<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: yellow; padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="89">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">Pino_Arduino</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(221, 235, 247); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">LED<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: red;">VERMELHO<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">9<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">A-7<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">24<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">RS<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">31<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(221, 235, 247); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">LED<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: rgb(255, 192, 0);">AMARELO<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">10<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">B-6<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">22<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span class="SpellE"><b><span style="font-size: 12pt; color: black;">RW</span></b></span><b><span style="font-size: 12pt; color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">33<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(221, 235, 247); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">LED<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: rgb(0, 176, 80);">VERDE<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">11<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">C-4<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">27<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">EN<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">35<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(221, 235, 247); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">LED<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: rgb(0, 112, 192);">AZUL<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">12<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">D-2<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">25<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">D4<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">30<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(248, 203, 173); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">LED_RGB</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: red;">R<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">2<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">E-1<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">23<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">D5<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">32<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(248, 203, 173); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">LED_RGB</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: rgb(0, 176, 80);">G<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">4<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">F-9<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">26<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">D6<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">34<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(248, 203, 173); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">LED_RGB</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-image: url('') initial; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium; border-bottom-style: none; border-bottom-color: inherit; border-bottom-width: medium;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: rgb(0, 112, 192);">B<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-image: url('') initial; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium; border-bottom-style: none; border-bottom-color: inherit; border-bottom-width: medium;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">5<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">G-10<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">28<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">Display_LCD</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">D7<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">36<o:p></o:p></span></b></p>
+		</td>
+	</tr>
+	<tr style="height: 16.5pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; padding: 0.75pt 3.5pt; height: 16.5pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">LED<span>&nbsp;</span>BRANCO<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; padding: 0.75pt 3.5pt; height: 16.5pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">LOAD</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: white; padding: 0.75pt 3.5pt; height: 16.5pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">13<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 16.5pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Display_7_SEG.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 16.5pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">PD-5<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 16.5pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="font-size: 12pt; color: black;">29<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 192, 0); padding: 0.75pt 3.5pt; height: 16.5pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 192, 0); padding: 0.75pt 3.5pt; height: 16.5pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 192, 0); padding: 0.75pt 3.5pt; height: 16.5pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(221, 235, 247); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">DISTANCIA<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">TRIG</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">6<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: yellow; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">Componenete</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: yellow; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		</td>
+		<td nowrap style="width: 69pt; border-image: url('') initial; border-bottom: 1pt solid windowtext; background: yellow; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-right-style: none; border-right-color: inherit; border-right-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="92">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<b><span style="color: black;">Pino Arduino<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; border-image: url('') initial; border-bottom: 1pt solid windowtext; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-right-style: none; border-right-color: inherit; border-right-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(221, 235, 247); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">DISTANCIA<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span class="SpellE"><b><span style="color: black;">ECHO</span></b></span><b><span style="color: black;"><o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">7<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(248, 203, 173); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">MOTOR<span class="Apple-converted-space">&nbsp;</span><span class="SpellE">DC</span><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		</td>
+		<td nowrap style="width: 69pt; border-image: url('') initial; border-bottom: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-right-style: none; border-right-color: inherit; border-right-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">3<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; border-image: url('') initial; border-bottom: 1pt solid windowtext; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-right-style: none; border-right-color: inherit; border-right-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(198, 224, 180); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">TERMISTOR</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">A0<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(142, 169, 219); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">SERVO<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		</td>
+		<td nowrap style="width: 69pt; border-image: url('') initial; border-bottom: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-right-style: none; border-right-color: inherit; border-right-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">1<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-image: url('') initial; border-left: 1pt solid windowtext; background: rgb(217, 217, 217); padding: 0.75pt 3.5pt; height: 15.75pt; border-right-style: none; border-right-color: inherit; border-right-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium; border-bottom-style: none; border-bottom-color: inherit; border-bottom-width: medium;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; background: rgb(217, 217, 217); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; border-image: url('') initial; border-right: 1pt solid windowtext; background: rgb(217, 217, 217); padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium; border-bottom-style: none; border-bottom-color: inherit; border-bottom-width: medium;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15.75pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(255, 217, 102); padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span class="SpellE"><span style="color: black;">LDR</span></span><span style="color: black;"><o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">A1<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 217, 102); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="101">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">BUZZER<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">8<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: 1pt solid windowtext; border-left: none; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-left: none; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="89">
+		</td>
+	</tr>
+		<tr>
+		<td style="background-position: 0% 0%; width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium; background-image: none; background-repeat: repeat; background-attachment: scroll;" valign="bottom" width="97" class="auto-style9">
+		POTENCIÔMETRO</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		&nbsp;</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92" class="auto-style8">
+		<b><span style="color: black;">A5</span></b></td>
+		<td style="background-position: 0% 0%; width: 76pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium; background-image: none; background-repeat: repeat; background-attachment: scroll;" valign="bottom" width="101" class="auto-style10">
+		&nbsp;</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		&nbsp;</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		&nbsp;</td>
+		<td nowrap style="width: 74pt; border-top: 1pt solid windowtext; border-left: none; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		&nbsp;</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-left: none; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		&nbsp;</td>
+		<td nowrap style="width: 67pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="89">
+		&nbsp;</td>
+		</tr>
+		<tr>
+		<td style="background-position: 0% 0%; width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; padding: 0.75pt 3.5pt; height: 15.75pt; border-top-style: none; border-top-color: inherit; border-top-width: medium; background-image: none; background-repeat: repeat; background-attachment: scroll;" valign="bottom" width="97" class="auto-style11">
+		CHAVE TÁCTIL</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83" class="auto-style8">
+		&nbsp;</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92" class="auto-style8">
+		<strong>14</strong></td>
+		<td style="background-position: 0% 0%; width: 76pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium; border-top-style: none; border-top-color: inherit; border-top-width: medium; background-image: none; background-repeat: repeat; background-attachment: scroll;" valign="bottom" width="101" class="auto-style10">
+		&nbsp;</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="95">
+		&nbsp;</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: white; padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="92">
+		&nbsp;</td>
+		<td nowrap style="width: 74pt; border-top: 1pt solid windowtext; border-left: none; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="99">
+		&nbsp;</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-left: none; border-bottom: 1pt solid windowtext; border-right: none; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt;" valign="bottom" width="83">
+		&nbsp;</td>
+		<td nowrap style="width: 67pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(208, 206, 206); padding: 0.75pt 3.5pt; height: 15.75pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="89">
+		&nbsp;</td>
+		</tr>
+	<tr style="height: 15pt;">
+		<td nowrap style="width: 73pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="97">
+		&nbsp;</td>
+		<td nowrap style="width: 62pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 69pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		</td>
+		<td nowrap style="width: 76pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="101">
+		</td>
+		<td nowrap style="width: 71pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="95">
+		</td>
+		<td nowrap style="width: 69pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		</td>
+		<td nowrap style="width: 74pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15pt;">
+		<td nowrap style="width: 73pt; border: 1pt solid windowtext; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<b><span style="color: black;">CARRINHO<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">IN1 (DIR)<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">IN2 (DIR)<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="101">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">EN (DIR)<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">IN3 (<span class="SpellE">ESQ</span>)<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">IN4 (<span class="SpellE">ESQ</span>)<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: url('') initial; background: rgb(237, 237, 237); padding: 0.75pt 3.5pt; height: 15pt; border-left-style: none; border-left-color: inherit; border-left-width: medium;" valign="bottom" width="99">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">EN (<span class="SpellE">ESQ</span>)<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; padding: 0.75pt 3.5pt; height: 15pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Pinos<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">4<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">5<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="101">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">9<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">12<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">13<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 74pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="99">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">10<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 62pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<b><span style="color: black;">BRAÇO<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">SERVO BASE<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">SERVO GARRA<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="101">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">SERVO DIREITA<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; background: rgb(255, 230, 153); padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<span style="color: black;">SERVO ESQ.<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 69pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		</td>
+		<td nowrap style="width: 74pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+	<tr style="height: 15pt;">
+		<td nowrap style="width: 73pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: url('') initial; padding: 0.75pt 3.5pt; height: 15pt; border-top-style: none; border-top-color: inherit; border-top-width: medium;" valign="bottom" width="97">
+		<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;">
+		<span style="color: black;">Pinos<o:p></o:p></span></p>
+		</td>
+		<td nowrap style="width: 62pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">9<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">8<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 76pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="101">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">11<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 71pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="95">
+		<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;">
+		<b><span style="color: black;">10<o:p></o:p></span></b></p>
+		</td>
+		<td nowrap style="width: 69pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="92">
+		</td>
+		<td nowrap style="width: 74pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="99">
+		</td>
+		<td nowrap style="width: 62pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="83">
+		</td>
+		<td nowrap style="width: 67pt; padding: 0.75pt 3.5pt; height: 15pt;" valign="bottom" width="89">
+		</td>
+	</tr>
+</table>
+	<table style="width: 100%">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	<br />
+	</p>
+	</li>
+	<li>
+	<p class="auto-style3"><span class="auto-style4">&nbsp;Qualquer dúvida, 
+	entrar em contato com Rubens Queiroz pelo e-mail
+	<a href="mailto:rubensqueiroz@outlook.com">rubensqueiroz@outlook.com</a></span></p>
+	</li>
+	<li>
+	<p class="auto-style3">&nbsp;Vídeos tutorias sobre a configuração e uso do 
+	DB4K encotram-se disponíveis em <a href="https://www.youtube.com/qrzBots">
+	https://www.youtube.com/qrzBots</a><br /><span class="auto-style4"><br />
+	</span></p>
+	</li>
+</ol>
+<p class="auto-style6">&nbsp;</p>
+
+</body>
+
+</html>

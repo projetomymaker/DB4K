@@ -1,0 +1,37 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="limpar_lcd" id="1" x="145" y="44">
+    <comment pinned="false" h="80" w="160">Limpa os textos do Display de LCD.</comment>
+    <next>
+      <block type="delay" id="2">
+        <field name="milisegundos">1000</field>
+        <comment pinned="false" h="80" w="160">Espera 1 segundo.</comment>
+        <next>
+          <block type="escrever_lcd" id="3">
+            <field name="texto">Linha 1</field>
+            <field name="numero_linha">1</field>
+            <comment pinned="false" h="80" w="160">Escreve o texto: "Linha 1" na linha superior do display de LCD.</comment>
+            <next>
+              <block type="delay" id="4">
+                <field name="milisegundos">1000</field>
+                <comment pinned="false" h="80" w="160">Espera 1 segundo.</comment>
+                <next>
+                  <block type="escrever_lcd" id="5">
+                    <field name="texto">Linha 2</field>
+                    <field name="numero_linha">2</field>
+                    <comment pinned="false" h="30" w="82">Escreve o texto: "Linha 2" na linha inferior do display de LCD.</comment>
+                    <next>
+                      <block type="delay" id="6">
+                        <field name="milisegundos">1000</field>
+                        <comment pinned="false" h="80" w="160">Espera 1 segundo.</comment>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

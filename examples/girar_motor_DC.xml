@@ -1,0 +1,35 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="girar_motor" id="66" x="145" y="44">
+    <field name="velocidade_motor">low</field>
+    <comment pinned="false" h="80" w="160">Faz o motor DC girar em velocidade baixa.</comment>
+    <next>
+      <block type="delay" id="67">
+        <field name="milisegundos">5000</field>
+        <comment pinned="false" h="80" w="160">Espera 5 segundos.</comment>
+        <next>
+          <block type="girar_motor" id="68">
+            <field name="velocidade_motor">high</field>
+            <comment pinned="false" h="80" w="160">Faz o motor DC girar em velocidade alta.</comment>
+            <next>
+              <block type="delay" id="69">
+                <field name="milisegundos">10000</field>
+                <comment pinned="false" h="80" w="160">Espera 10 segundos.</comment>
+                <next>
+                  <block type="parar_motor" id="70">
+                    <comment pinned="false" h="80" w="160">Faz o Motor DC Parar.</comment>
+                    <next>
+                      <block type="delay" id="71">
+                        <field name="milisegundos">5000</field>
+                        <comment pinned="false" h="80" w="160">Espera 5 segundos.</comment>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
