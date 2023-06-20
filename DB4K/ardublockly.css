@@ -179,11 +179,11 @@ ul.side-nav li.side-menu-end {
 }
 
 
-#materialize-lean-overlay-1  {
+/* #materialize-lean-overlay-1  {
   display: none !important;
   z-index: inherit;
   
-}
+} */
 
 /* The materialize framework changes height of the div to show or hide */
 /* the collapsible elements. */
@@ -339,10 +339,10 @@ ul.side-nav li.side-menu-end {
   font-size: 2.4rem !important;
   line-height: 55px;
 }
-
+/* 
 #menu_settings {
   display: none;
-}
+} */
 
 #button_ide_middle {
   position: absolute;
