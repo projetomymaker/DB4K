@@ -42,7 +42,7 @@ Ardublockly.bindActionFunctions = function() {
   Ardublockly.bindClick_('button_new', Ardublockly.newSketch);
   //------------------------------------------------------------------------
   Ardublockly.bindClick_('button_load', Ardublockly.loadUserXmlFile);
-  Ardublockly.bindClick_('button_save', Ardublockly.saveXmlFile);
+  Ardublockly.bindClick_('button_save', Ardublockly.saveSketchFile);
   Ardublockly.bindClick_('button_delete', Ardublockly.discardAllBlocks);
 
   
