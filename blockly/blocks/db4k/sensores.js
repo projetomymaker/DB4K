@@ -50,58 +50,13 @@ Blockly.Blocks['sensor_luz'] = {
         .appendField("Luz")	
 	    .appendField(new Blockly.FieldDropdown([[val_3, "forte"],[val_2,"ambiente"],[val_1, "fraca"]]), "luminosidade")
 		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 8, 40, "*"))
-    .appendField('');
+    .appendField("Porta:")
+    .appendField(new Blockly.FieldTextInput(pinoLuz),"pino");
     this.setInputsInline(true);
     this.setOutput(true);
     this.setTooltip('');
 
-    this.updateVariableField_();
   },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var luzVariable = this.variableField_.getValue();
-      if (luzVariable) {
-        return luzVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_luz");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_luz") 
-        .appendField("         Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "luz_variable");
-    this.variableField_ = this.getField("luz_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoLuz);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
-  }
 };
   
 Blockly.Blocks['sensor_temperatura'] = {
@@ -165,138 +120,80 @@ Blockly.Blocks['potenciometro'] = {
     this.appendDummyInput()
 		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/potenciometro.png", 40, 40, "*"))
         .appendField("Potenciômetro")
-        .appendField(new Blockly.FieldDropdown([[val_1,"ALTO"], [val_2,"MEDIO"], [val_3 ,"BAIXO"]]), "potenciometro");
+        .appendField(new Blockly.FieldDropdown([[val_1,"ALTO"], [val_2,"MEDIO"], [val_3 ,"BAIXO"]]), "potenciometro")
+        .appendField("Porta:")
+        .appendField(new Blockly.FieldTextInput(pinoPotenciometro),"pino");
     this.setOutput(true, null);
     this.setColour(cor_sensores);
     this.setNextStatement(false);
     
-    this.updateVariableField_();
   },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var potenciometroVariable = this.variableField_.getValue();
-      if (potenciometroVariable) {
-        return potenciometroVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_potenciometro");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_potenciometro")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "potenciometro_variable");
-    this.variableField_ = this.getField("potenciometro_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoPotenciometro);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
-  }
 };
 
 Blockly.Blocks['sensor_toque'] = {
   init: function() {
-	var val_1 = '\u25CF' + "  " + "Pressionado";
+    var val_1 = '\u25CF' + "  " + "Pressionado";
     var val_2 = '\u25CB' + "  " + "Solto";
     this.appendDummyInput()
-		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/botao.png", 40, 40, "*"))
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/botao.png", 40, 40, "*"))
         .appendField("Botão")
-        .appendField(new Blockly.FieldDropdown([["1","1"], ["2","2"], ["3","3"] , ["4","4"]]), "porta_botao")
+        .appendField(new Blockly.FieldDropdown([["1","1"], ["2","2"], ["3","3"], ["4","4"]], function(option) { this.sourceBlock_.updateVariableField_(option); }), "porta_botao")
         .appendField(new Blockly.FieldDropdown([[val_1,"1"], [val_2,"0"]]), "BOTAO");
+
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
+
+    this.updateVariableField_();
     this.setOutput(true, null);
     this.setColour(cor_sensores);
     this.setTooltip('');
     this.setHelpUrl('');
-
-    
-    this.variableField_ = null; // Variável para rastrear o campo de variável
-
-    this.updateVariableField_();
   },
 
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
+  updateVariableField_: function(option) {
+    if (option !== this.selectedOption_) {
+      this.selectedOption_ = option;
       this.removeVariableField_();
-      this.appendVariableField_(vars);
+      this.appendVariableField_(option);
     }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var buttonVariable = this.variableField_.getValue();
-      if (buttonVariable) {
-        return buttonVariable.split(",");
-      }
-    }
-    return null;
   },
 
   removeVariableField_: function() {
     if (this.variableField_) {
-      this.removeInput("variavel_button");
+      this.removeInput("variavel_botao");
       this.variableField_ = null;
     }
   },
 
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_button")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "button_variable");
-    this.variableField_ = this.getField("button_variable");
+  appendVariableField_: function(option) {
+    var vars = this.getVarsFromOption_(option);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_botao")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "botao_variable");
+      this.variableField_ = this.getField("botao_variable");
+    }
   },
 
-  getVars: function() {
-    var portaBotao = this.getFieldValue('porta_botao');
+  getVarsFromOption_: function(option) {
     var vars = [];
 
-    switch(portaBotao){
-      case '1':
-        vars.push(""+pino_sensor_toque)
-        break;
-      case '2':
-        vars.push(""+pino_sensor_toque1)
-        break;      
-      case '3':
-        vars.push(""+pino_sensor_toque2)
-        break;
-      case '4':
-        vars.push(""+pino_sensor_toque3)
-        break;        
+    if (option === '1') {
+      vars.push("" + pino_sensor_toque);
+    } else if (option === '2') {
+      vars.push("" + pino_sensor_toque1);
+    } else if (option === '3') {
+      vars.push("" + pino_sensor_toque2);
+    } else if (option === '4') {
+      vars.push("" + pino_sensor_toque3);
     }
+
     return vars;
   },
 
   onchange: function() {
-    this.updateVariableField_();
+    var portaBotao = this.getFieldValue('porta_botao');
+    this.updateVariableField_(portaBotao);
   }
 };
 
