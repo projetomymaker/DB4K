@@ -50,6 +50,9 @@ var pinoLedVerde = DB4K_pino_LED_verde;
 var pinoLedVermelho2 = DB4K_pino_LED_vermelho2;
 var pinoLedAmarelo2 = DB4K_pino_LED_amarelo2;
 var pinoLedVerde2 = DB4K_pino_LED_verde2;
+var pinoLedVermelhoS = DB4K_pino_LED_vermelhoS;
+var pinoLedAmareloS = DB4K_pino_LED_amareloS;
+var pinoLedVerdeS = DB4K_pino_LED_verdeS;
 var pinoDc = DB4K_pino_MotorDC;
 var pinoServo = DB4K_pino_Servo_Motor;
 var pinoBuzzer = DB4K_pino_buzzer;
@@ -129,6 +132,73 @@ Blockly.Blocks['acender_led'] = {
   }
 };
 
+Blockly.Blocks['acender_ledS'] = {
+  init: function() {
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(cor_acender_led);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_on.png", 40, 40, "*"))
+        .appendField("Acender o LED Semáforo")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led");
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Acende o LED com a cor indicada.');
+
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
+
+    this.updateVariableField_();
+  },
+
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
+      this.removeVariableField_();
+      this.appendVariableField_(option, color);
+    }
+  },
+
+  removeVariableField_: function() {
+    if (this.variableField_) {
+      this.removeInput("variavel_led");
+      this.variableField_ = null;
+    }
+  },
+
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
+  },
+
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
+    var vars = [];
+
+
+      if (corLed === '#ff0000') {
+        vars.push(""+pinoLedVermelhoS);
+      } else if (corLed === '#ffff00') {
+        vars.push(""+pinoLedAmareloS);
+      } else if (corLed === '#00ff00') {
+        vars.push(""+pinoLedVerdeS);
+      }
+    
+
+    return vars;
+  },
+
+  onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
+  }
+};
+
+
 
 Blockly.Blocks['apagar_led'] = {
   init: function() {
@@ -195,6 +265,68 @@ Blockly.Blocks['apagar_led'] = {
       }
     }
 
+    return vars;
+  },
+
+  onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
+  }
+};
+Blockly.Blocks['apagar_ledS'] = {
+  init: function() {
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(cor_apagar_led);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_off_long.png", 48, 40, "*"))
+        .appendField("Apagar o LED Semáforo")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led");
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Apaga o LED com a cor indicada.');
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
+
+    this.updateVariableField_();
+  },
+
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
+      this.removeVariableField_();
+      this.appendVariableField_(option, color);
+    }
+  },
+
+  removeVariableField_: function() {
+    if (this.variableField_) {
+      this.removeInput("variavel_led");
+      this.variableField_ = null;
+    }
+  },
+
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
+  },
+
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
+    var vars = [];
+
+
+      if (corLed === '#ff0000') {
+        vars.push(""+pinoLedVermelhoS);
+      } else if (corLed === '#ffff00') {
+        vars.push(""+pinoLedAmareloS);
+      } else if (corLed === '#00ff00') {
+        vars.push(""+pinoLedVerdeS);
+      }
     return vars;
   },
 
@@ -274,6 +406,75 @@ Blockly.Blocks['piscar_led'] = {
         vars.push(""+pinoLedVerde2);
       }
     }
+
+    return vars;
+  },
+
+  onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
+  }
+};
+
+Blockly.Blocks['piscar_ledS'] = {
+  init: function() {
+	var val_1 = '\u25CF' + "  " + "Devagar";
+	var val_2 = '\u25CE' + "  " + "Velocidade Média";
+    var val_3 = '\u25CB' + "  " + "Rápido";
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(cor_piscar_led);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_blink.png", 40, 40, "*"))
+        .appendField("Piscar o LED Semáforo")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led")
+		.appendField(new Blockly.FieldDropdown([[val_3, "high"],[val_2, "middle"],[val_1, "low"]]), "velocidade_blink"); 
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Pisca o LED da cor indicada.');
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
+
+    this.updateVariableField_();
+  },
+
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
+      this.removeVariableField_();
+      this.appendVariableField_(option, color);
+    }
+  },
+
+  removeVariableField_: function() {
+    if (this.variableField_) {
+      this.removeInput("variavel_led");
+      this.variableField_ = null;
+    }
+  },
+
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
+  },
+
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
+    var vars = [];
+
+       
+      if (corLed === '#ff0000') {
+        vars.push(""+pinoLedVermelhoS);
+      } else if (corLed === '#ffff00') {
+        vars.push(""+pinoLedAmareloS);
+      } else if (corLed === '#00ff00') {
+        vars.push(""+pinoLedVerdeS);
+      }
+    
 
     return vars;
   },
