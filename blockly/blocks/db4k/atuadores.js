@@ -50,10 +50,12 @@ var pinoLedVerde = DB4K_pino_LED_verde;
 var pinoLedVermelho2 = DB4K_pino_LED_vermelho2;
 var pinoLedAmarelo2 = DB4K_pino_LED_amarelo2;
 var pinoLedVerde2 = DB4K_pino_LED_verde2;
+var pinoLedVermelhoS = DB4K_pino_LED_vermelhoS;
+var pinoLedAmareloS = DB4K_pino_LED_amareloS;
+var pinoLedVerdeS = DB4K_pino_LED_verdeS;
 var pinoDc = DB4K_pino_MotorDC;
 var pinoServo = DB4K_pino_Servo_Motor;
 var pinoBuzzer = DB4K_pino_buzzer;
-
 
 Blockly.Blocks['acender_led'] = {
   init: function() {
@@ -62,36 +64,24 @@ Blockly.Blocks['acender_led'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_on.png", 40, 40, "*"))
         .appendField("Acender o LED")
-        .appendField(new Blockly.FieldDropdown([["Direita","1"], ["Esquerda","2"]]), "porta_led")
-        .appendField(new Blockly.FieldColour("#ff0000"), "cor_led");
+        .appendField(new Blockly.FieldDropdown([["Direita","1"],["Esquerda","2"]], function(option) { this.sourceBlock_.updateVariableField_(option); }), "porta_led")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Acende o LED com a cor indicada.');
 
     this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
 
     this.updateVariableField_();
   },
 
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
       this.removeVariableField_();
-      this.appendVariableField_(vars);
+      this.appendVariableField_(option, color);
     }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var ledVariable = this.variableField_.getValue();
-      if (ledVariable) {
-        return ledVariable.split(",");
-      }
-    }
-    return null;
   },
 
   removeVariableField_: function() {
@@ -101,19 +91,21 @@ Blockly.Blocks['acender_led'] = {
     }
   },
 
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_led")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
-    this.variableField_ = this.getField("led_variable");
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
   },
 
-  getVars: function() {
-    var portaLed = this.getFieldValue('porta_led');
-    var corLed = this.getFieldValue('cor_led');
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
     var vars = [];
 
-    if (portaLed === '1') {
+    if (option === '1') {
       if (corLed === '#ff0000') {
         vars.push(""+pinoLedVermelho);
       } else if (corLed === '#ffff00') {
@@ -121,7 +113,7 @@ Blockly.Blocks['acender_led'] = {
       } else if (corLed === '#00ff00') {
         vars.push(""+pinoLedVerde);
       }
-    } else if (portaLed === '2') {
+    } else if (option === '2') {
       if (corLed === '#ff0000') {
         vars.push(""+pinoLedVermelho2);
       } else if (corLed === '#ffff00') {
@@ -135,9 +127,77 @@ Blockly.Blocks['acender_led'] = {
   },
 
   onchange: function() {
-    this.updateVariableField_();
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
   }
 };
+
+Blockly.Blocks['acender_ledS'] = {
+  init: function() {
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(cor_acender_led);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_on.png", 40, 40, "*"))
+        .appendField("Acender o LED Semáforo")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led");
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Acende o LED com a cor indicada.');
+
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
+
+    this.updateVariableField_();
+  },
+
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
+      this.removeVariableField_();
+      this.appendVariableField_(option, color);
+    }
+  },
+
+  removeVariableField_: function() {
+    if (this.variableField_) {
+      this.removeInput("variavel_led");
+      this.variableField_ = null;
+    }
+  },
+
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
+  },
+
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
+    var vars = [];
+
+
+      if (corLed === '#ff0000') {
+        vars.push(""+pinoLedVermelhoS);
+      } else if (corLed === '#ffff00') {
+        vars.push(""+pinoLedAmareloS);
+      } else if (corLed === '#00ff00') {
+        vars.push(""+pinoLedVerdeS);
+      }
+    
+
+    return vars;
+  },
+
+  onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
+  }
+};
+
 
 
 Blockly.Blocks['apagar_led'] = {
@@ -147,35 +207,23 @@ Blockly.Blocks['apagar_led'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_off_long.png", 48, 40, "*"))
         .appendField("Apagar o LED")
-        .appendField(new Blockly.FieldDropdown([["Direita","1"], ["Esquerda","2"]]), "porta_led")
-        .appendField(new Blockly.FieldColour("#ff0000"), "cor_led");
+        .appendField(new Blockly.FieldDropdown([["Direita","1"],["Esquerda","2"]], function(option) { this.sourceBlock_.updateVariableField_(option); }), "porta_led")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Apaga o LED com a cor indicada.');
     this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
 
     this.updateVariableField_();
   },
 
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
       this.removeVariableField_();
-      this.appendVariableField_(vars);
+      this.appendVariableField_(option, color);
     }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var ledVariable = this.variableField_.getValue();
-      if (ledVariable) {
-        return ledVariable.split(",");
-      }
-    }
-    return null;
   },
 
   removeVariableField_: function() {
@@ -185,19 +233,21 @@ Blockly.Blocks['apagar_led'] = {
     }
   },
 
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_led")
-        .appendField("                Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
-    this.variableField_ = this.getField("led_variable");
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
   },
 
-  getVars: function() {
-    var portaLed = this.getFieldValue('porta_led');
-    var corLed = this.getFieldValue('cor_led');
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
     var vars = [];
 
-    if (portaLed === '1') {
+    if (option === '1') {
       if (corLed === '#ff0000') {
         vars.push(""+pinoLedVermelho);
       } else if (corLed === '#ffff00') {
@@ -205,7 +255,7 @@ Blockly.Blocks['apagar_led'] = {
       } else if (corLed === '#00ff00') {
         vars.push(""+pinoLedVerde);
       }
-    } else if (portaLed === '2') {
+    } else if (option === '2') {
       if (corLed === '#ff0000') {
         vars.push(""+pinoLedVermelho2);
       } else if (corLed === '#ffff00') {
@@ -219,7 +269,70 @@ Blockly.Blocks['apagar_led'] = {
   },
 
   onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
+  }
+};
+Blockly.Blocks['apagar_ledS'] = {
+  init: function() {
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(cor_apagar_led);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_off_long.png", 48, 40, "*"))
+        .appendField("Apagar o LED Semáforo")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led");
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Apaga o LED com a cor indicada.');
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
+
     this.updateVariableField_();
+  },
+
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
+      this.removeVariableField_();
+      this.appendVariableField_(option, color);
+    }
+  },
+
+  removeVariableField_: function() {
+    if (this.variableField_) {
+      this.removeInput("variavel_led");
+      this.variableField_ = null;
+    }
+  },
+
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
+  },
+
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
+    var vars = [];
+
+
+      if (corLed === '#ff0000') {
+        vars.push(""+pinoLedVermelhoS);
+      } else if (corLed === '#ffff00') {
+        vars.push(""+pinoLedAmareloS);
+      } else if (corLed === '#00ff00') {
+        vars.push(""+pinoLedVerdeS);
+      }
+    return vars;
+  },
+
+  onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
   }
 };
 
@@ -235,36 +348,24 @@ Blockly.Blocks['piscar_led'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_blink.png", 40, 40, "*"))
         .appendField("Piscar o LED")
-        .appendField(new Blockly.FieldDropdown([["Direita","1"], ["Esquerda","2"]]), "porta_led")
-        .appendField(new Blockly.FieldColour("#ff0000"), "cor_led")
+        .appendField(new Blockly.FieldDropdown([["Direita","1"],["Esquerda","2"]], function(option) { this.sourceBlock_.updateVariableField_(option); }), "porta_led")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led")
 		.appendField(new Blockly.FieldDropdown([[val_3, "high"],[val_2, "middle"],[val_1, "low"]]), "velocidade_blink"); 
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Pisca o LED da cor indicada.');
     this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
 
     this.updateVariableField_();
   },
 
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
       this.removeVariableField_();
-      this.appendVariableField_(vars);
+      this.appendVariableField_(option, color);
     }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var ledVariable = this.variableField_.getValue();
-      if (ledVariable) {
-        return ledVariable.split(",");
-      }
-    }
-    return null;
   },
 
   removeVariableField_: function() {
@@ -274,19 +375,21 @@ Blockly.Blocks['piscar_led'] = {
     }
   },
 
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_led")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
-    this.variableField_ = this.getField("led_variable");
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
   },
 
-  getVars: function() {
-    var portaLed = this.getFieldValue('porta_led');
-    var corLed = this.getFieldValue('cor_led');
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
     var vars = [];
 
-    if (portaLed === '1') {
+    if (option === '1') {
       if (corLed === '#ff0000') {
         vars.push(""+pinoLedVermelho);
       } else if (corLed === '#ffff00') {
@@ -294,7 +397,7 @@ Blockly.Blocks['piscar_led'] = {
       } else if (corLed === '#00ff00') {
         vars.push(""+pinoLedVerde);
       }
-    } else if (portaLed === '2') {
+    } else if (option === '2') {
       if (corLed === '#ff0000') {
         vars.push(""+pinoLedVermelho2);
       } else if (corLed === '#ffff00') {
@@ -308,11 +411,79 @@ Blockly.Blocks['piscar_led'] = {
   },
 
   onchange: function() {
-    this.updateVariableField_();
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
   }
 };
 
+Blockly.Blocks['piscar_ledS'] = {
+  init: function() {
+	var val_1 = '\u25CF' + "  " + "Devagar";
+	var val_2 = '\u25CE' + "  " + "Velocidade Média";
+    var val_3 = '\u25CB' + "  " + "Rápido";
+    this.setHelpUrl('http://www.example.com/');
+    this.setColour(cor_piscar_led);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/led_blink.png", 40, 40, "*"))
+        .appendField("Piscar o LED Semáforo")
+        .appendField(new Blockly.FieldColour("#ff0000", function(color) { this.sourceBlock_.updateVariableField_(null, color);  }), "cor_led")
+		.appendField(new Blockly.FieldDropdown([[val_3, "high"],[val_2, "middle"],[val_1, "low"]]), "velocidade_blink"); 
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Pisca o LED da cor indicada.');
+    this.variableField_ = null; // Variável para rastrear o campo de variável
+    this.selectedOption_ = null; // Opção selecionada atualmente
 
+    this.updateVariableField_();
+  },
+
+  updateVariableField_: function(option, color) {
+    if (option !== this.selectedOption_ || color) {
+      this.selectedOption_ = option;
+      this.removeVariableField_();
+      this.appendVariableField_(option, color);
+    }
+  },
+
+  removeVariableField_: function() {
+    if (this.variableField_) {
+      this.removeInput("variavel_led");
+      this.variableField_ = null;
+    }
+  },
+
+  appendVariableField_: function(option, color) {
+    var vars = this.getVarsFromOption_(option, color);
+    if (vars.length > 0) {
+      this.appendDummyInput("variavel_led")
+          .appendField("              Porta:")
+          .appendField(new Blockly.FieldTextInput(vars[0] || ""), "led_variable");
+      this.variableField_ = this.getField("led_variable");
+    }
+  },
+
+  getVarsFromOption_: function(option, color) {
+    var corLed = color || this.getFieldValue('cor_led');
+    var vars = [];
+
+       
+      if (corLed === '#ff0000') {
+        vars.push(""+pinoLedVermelhoS);
+      } else if (corLed === '#ffff00') {
+        vars.push(""+pinoLedAmareloS);
+      } else if (corLed === '#00ff00') {
+        vars.push(""+pinoLedVerdeS);
+      }
+    
+
+    return vars;
+  },
+
+  onchange: function() {
+    var portaLed = this.getFieldValue('porta_led');
+    this.updateVariableField_(portaLed);
+  }
+};
 
 Blockly.Blocks['girar_motor'] = {
   init: function() {
@@ -324,62 +495,14 @@ Blockly.Blocks['girar_motor'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/motor_move_2.png", 40, 40, "*"))
         .appendField("Girar Motor DC")
-        .appendField(new Blockly.FieldDropdown([[val_3, "high"],[val_2, "middle"],[val_1, "low"]]), "velocidade_motor");    
+        .appendField(new Blockly.FieldDropdown([[val_3, "high"],[val_2, "middle"],[val_1, "low"]]), "velocidade_motor")
+        .appendField("        Porta:")
+        .appendField(new Blockly.FieldTextInput(pinoDc),"pino");    
 	this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Faz o motor DC girar na velocidade indicada.');
-
-    this.variableField_ = null; // Variável para rastrear o campo de variável
-
-    this.updateVariableField_();
-  },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var motorVariable = this.variableField_.getValue();
-      if (motorVariable) {
-        return motorVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_motor");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_motor")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "motor_variable");
-    this.variableField_ = this.getField("motor_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoDc);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
   }
 };
-
 
 
 
@@ -390,59 +513,13 @@ Blockly.Blocks['parar_motor'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/helice.png", 40, 40, "*"))
 		.appendField("Parar Motor DC")
-		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 63, 40, "*"));
+		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 63, 40, "*"))
+    .appendField("        Porta:")
+    .appendField(new Blockly.FieldTextInput(pinoDc),"pino");   
 	this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Faz o Motor DC  parar');
-    this.variableField_ = null; // Variável para rastrear o campo de variável
-
-    this.updateVariableField_();
   },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var motorVariable = this.variableField_.getValue();
-      if (motorVariable) {
-        return motorVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_motor");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_motor")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "motor_variable");
-    this.variableField_ = this.getField("motor_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoDc);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
-  }
 };
 
 
@@ -484,58 +561,13 @@ Blockly.Blocks['mover_servomotor'] = {
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/servo_move.png", 40, 40, "*"))
         .appendField("Mover Servo Motor para")
         .appendField(new Blockly.FieldAngle(90), "posicao_ponteiro_servo")
-		.appendField("graus");
+		.appendField("graus")
+    .appendField("        Porta:")
+    .appendField(new Blockly.FieldTextInput(pinoServo),"pino");  
 	this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Faz o ponteiro do Servo Motor mover-se para a posição indicada');
     this.variableField_ = null; // Variável para rastrear o campo de variável
-
-    this.updateVariableField_();
-  },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var servoVariable = this.variableField_.getValue();
-      if (servoVariable) {
-        return servoVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_servo");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_servo")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "servo_variable");
-    this.variableField_ = this.getField("servo_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoServo);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
   }
 };
  
@@ -650,119 +682,29 @@ Blockly.Blocks['tocar_nota_buzzer'] = {
         .appendField(new Blockly.FieldDropdown([[medio, "4"],[grave, "3"], [agudo, "5"]]), "altura")	
         .appendField(new Blockly.FieldDropdown([[natural, "n"],[bemol, "b"], [sustenido, "s"]]), "acidente")									
 	    .appendField("no Buzzer")
-		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 26, 40, "*"));		
+		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 26, 40, "*"))
+    .appendField("Porta:")
+    .appendField(new Blockly.FieldTextInput(pinoBuzzer),"pino");
 	this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Faz o buzzer tocar a nota especificada');
-    this.updateVariableField_();
   },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var servoVariable = this.variableField_.getValue();
-      if (servoVariable) {
-        return servoVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_servo");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_servo")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "servo_variable");
-    this.variableField_ = this.getField("servo_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoBuzzer);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
-  }
 };
 
 Blockly.Blocks['parar_som_buzzer'] = {
-  init: function() {
-	  
-	
+  init: function() { 	
 	this.setHelpUrl('http://www.example.com/');
     this.setColour(cor_buzzer);
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/buzzer_notone.png", 40, 40, "*"))
         .appendField("Silenciar Buzzer")
-		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 28, 40, "*"));		
+		.appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/invisible.png", 28, 40, "*"))
+    .appendField("Porta:")
+    .appendField(new Blockly.FieldTextInput(pinoBuzzer),"pino");
 	this.setPreviousStatement(true);
     this.setNextStatement(true);
-    this.setTooltip('Faz o buzzer tocar a nota especificada');
-    this.updateVariableField_();
+    this.setTooltip('Faz o buzzer tocar a nota especificada')
   },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var servoVariable = this.variableField_.getValue();
-      if (servoVariable) {
-        return servoVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_servo");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_servo")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "servo_variable");
-    this.variableField_ = this.getField("servo_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoBuzzer);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
-  }
 };
 
 Blockly.Blocks['tocar_sirene_buzzer'] = {
@@ -775,56 +717,13 @@ Blockly.Blocks['tocar_sirene_buzzer'] = {
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/buzzer_sirente.png", 40, 40, "*"))
         .appendField("Tocar Sirene")
         .appendField(new Blockly.FieldDropdown([[val_2, "0"],[val_1, "1"]]), "velocidade")
-	    .appendField("no Buzzer");  		
+	    .appendField("no Buzzer")
+      .appendField("Porta:")
+      .appendField(new Blockly.FieldTextInput(pinoBuzzer),"pino");  		
 	this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Faz o buzzer tocar sirene na velocidade especificada');
-    this.updateVariableField_();
+   
   },
-
-  updateVariableField_: function() {
-    var vars = this.getVars();
-    var currentVars = this.getVarsFromField_();
-
-    // Verifica se o campo de variável precisa ser atualizado
-    if (!currentVars || currentVars.toString() !== vars.toString()) {
-      this.removeVariableField_();
-      this.appendVariableField_(vars);
-    }
-  },
-
-  getVarsFromField_: function() {
-    if (this.variableField_) {
-      var servoVariable = this.variableField_.getValue();
-      if (servoVariable) {
-        return servoVariable.split(",");
-      }
-    }
-    return null;
-  },
-
-  removeVariableField_: function() {
-    if (this.variableField_) {
-      this.removeInput("variavel_servo");
-      this.variableField_ = null;
-    }
-  },
-
-  appendVariableField_: function(vars) {
-    this.appendDummyInput("variavel_servo")
-        .appendField("              Porta:")
-        .appendField(new Blockly.FieldTextInput(vars[0] || ""), "servo_variable");
-    this.variableField_ = this.getField("servo_variable");
-  },
-
-  getVars: function() {
-    var vars = [];
-    vars.push(''+pinoBuzzer);
-    return vars;
-  },
-
-  onchange: function() {
-    this.updateVariableField_();
-  }
 };
 

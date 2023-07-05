@@ -45,6 +45,9 @@ var pinoLedVerde = DB4K_pino_LED_verde;
 var pinoLedVermelho2 = DB4K_pino_LED_vermelho2;
 var pinoLedAmarelo2 = DB4K_pino_LED_amarelo2;
 var pinoLedVerde2 = DB4K_pino_LED_verde2;
+var pinoLedVermelhoS = DB4K_pino_LED_vermelhoS;
+var pinoLedAmareloS = DB4K_pino_LED_amareloS;
+var pinoLedVerdeS = DB4K_pino_LED_verdeS;
 
 
 //Define velocidade da piscada do LED
@@ -176,6 +179,41 @@ Blockly.Arduino['acender_led'] = function(block) {
  
 };
 
+Blockly.Arduino['acender_ledS'] = function(block) {
+	var colour_cor_led = block.getFieldValue('cor_led');
+  //Troca o Valor Hexadecimal da Cor pelo "pino" Referente à cor
+	  switch(colour_cor_led) {
+		  case '#ff0000':
+					  var pinKey = "pino_led_vermelho";
+					  var pinLed = pinoLedVermelhoS;
+					  Blockly.Arduino.definitions_['pino_led_vermelho'] ='int pino_led_vermelho= '+ pinoLedVermelhoS +';'
+					  break;
+		  case '#00ff00':
+					  var pinKey = "pino_led_verde";
+					  var pinLed = pinoLedVerdeS;
+					  Blockly.Arduino.definitions_['pino_led_verde'] ='int pino_led_verde= '+ pinoLedVerdeS +';'
+					  break;	
+		  case '#ffff00':
+					  var pinKey = "pino_led_amarelo";
+					  var pinLed = pinoLedAmareloS;
+					  Blockly.Arduino.definitions_['pino_led_amarelo'] ='int pino_led_amarelo= '+ pinoLedAmareloS +';'
+					  break;
+			  break;		
+	  }
+	// TODO: Assemble Arduino into code variable.
+	var stateOutput = 'HIGH';
+  
+	Blockly.Arduino.reservePin(
+		block, pinLed, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');
+		
+	var pinSetupCode = 'pinMode(' + pinKey + ', OUTPUT);';
+	Blockly.Arduino.addSetup('io_' + pinKey, pinSetupCode, false);
+  
+	var code = 'digitalWrite(' + pinKey + ',' + stateOutput + ');\n';
+	return code;
+   
+  };
+
 
 //*******************************************************
 //Apaga LED
@@ -246,6 +284,45 @@ Blockly.Arduino['apagar_led'] = function(block) {
   var code = 'digitalWrite(' + pinKey + ',' + stateOutput + ');\n';
   return code;
 };
+
+Blockly.Arduino['apagar_ledS'] = function(block) {
+	var colour_cor_led = block.getFieldValue('cor_led');
+
+  //Troca o Valor Hexadecimal da Cor pelo "pino" Referente à cor
+	  switch(colour_cor_led) {
+		  case '#ff0000':
+					  var pinKey = "pino_led_vermelho";
+					  var pinLed = pinoLedVermelhoS;
+					  Blockly.Arduino.definitions_['pino_led_vermelho'] ='int pino_led_vermelho= '+ pinoLedVermelhoS +';'
+					  break;
+
+		  case '#00ff00':
+
+					  var pinKey = "pino_led_verde";
+					  var pinLed = pinoLedVerdeS;
+					  Blockly.Arduino.definitions_['pino_led_verde'] ='int pino_led_verde= '+ pinoLedVerdeS +';'
+					  break;
+	
+		  case '#ffff00':
+					  var pinKey = "pino_led_amarelo";
+					  var pinLed = pinoLedAmareloS;
+					  Blockly.Arduino.definitions_['pino_led_amarelo'] ='int pino_led_amarelo= '+ pinoLedAmareloS +';'
+					  break;
+
+	  }
+	// TODO: Assemble Arduino into code variable.
+	var stateOutput = 'LOW';
+  
+	Blockly.Arduino.reservePin(
+		block, pinLed, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');
+  
+	var pinSetupCode = 'pinMode(' + pinKey + ', OUTPUT);';
+	Blockly.Arduino.addSetup('io_' + pinKey, pinSetupCode, false);
+  
+	var code = 'digitalWrite(' + pinKey + ',' + stateOutput + ');\n';
+	return code;
+  };
+  
 
 
 //*******************************************************
@@ -335,6 +412,65 @@ Blockly.Arduino['piscar_led'] = function(block) {
   return code;
  
 };
+
+Blockly.Arduino['piscar_ledS'] = function(block) {
+	var colour_cor_led = block.getFieldValue('cor_led');
+	var dropdown_velocidade_blink = block.getFieldValue('velocidade_blink');
+	
+  //Troca o Valor Hexadecimal da Cor pelo "pino" Referente à cor
+	  switch(colour_cor_led) {
+		  case '#ff0000':
+					  var pinKey = "pino_led_vermelho";
+					  var pinLed = pinoLedVermelhoS;
+					  Blockly.Arduino.definitions_['pino_led_vermelho'] ='int pino_led_vermelho= '+ pinoLedVermelhoS +';'
+					  break;
+
+		  case '#00ff00':
+	
+					  var pinKey = "pino_led_verde";
+					  var pinLed = pinoLedVerdeS;
+					  Blockly.Arduino.definitions_['pino_led_verde'] ='int pino_led_verde= '+ pinoLedVerdeS +';'
+					  break;
+
+		  case '#ffff00':
+					  var pinKey = "pino_led_amarelo";
+					  var pinLed = pinoLedAmareloS;
+					  Blockly.Arduino.definitions_['pino_led_amarelo'] ='int pino_led_amarelo= '+ pinoLedAmareloS +';'
+					  break;
+
+
+	  }
+	  
+		switch(dropdown_velocidade_blink) {
+		  case 'low':
+			  var velocidade_blink = velocidade_baixa_blink;
+			  break;
+		  case 'middle':
+			  var velocidade_blink = velocidade_media_blink
+			  break;
+		  case 'high':
+			  var velocidade_blink = velocidade_alta_blink;
+			  break;	
+	  }
+	var value_num = velocidade_blink;
+	// TODO: Assemble Arduino into code variable.
+  
+	Blockly.Arduino.reservePin(
+		block, pinLed, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');
+		
+	var pinSetupCode = 'pinMode(' + pinKey + ', OUTPUT);';
+	Blockly.Arduino.addSetup('io_' + pinKey, pinSetupCode, false);
+  
+	var code = 'digitalWrite(' + pinKey + ',HIGH);\n'
+			 + 'delay(' + value_num + ');\n'
+			 + 'digitalWrite(' + pinKey + ',LOW);\n'
+			 + 'delay(' + value_num + ');\n';
+	return code;
+   
+  };
+
+
+
 
 
 
