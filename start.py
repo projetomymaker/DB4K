@@ -139,7 +139,8 @@ def main():
     print('Running Python %s (%s bit) on %s' % (platform.python_version(),
           (struct.calcsize('P') * 8), platform.platform()))
     if os.path.isdir(ardublocklyserver.local_packages_path):
-        print('Local packages: %s' % ardublocklyserver.local_packages_path)
+        # print('Local packages: %s' % ardublocklyserver.local_packages_path)
+        pass
     else:
         print('Not using local-packages, likely running packaged.')
 

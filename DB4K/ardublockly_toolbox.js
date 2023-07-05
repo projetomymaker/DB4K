@@ -56,6 +56,7 @@ Ardublockly.TOOLBOX_XML =
 '	    <block type="sensor_linha"></block>' +
 '		<block type="potenciometro"></block>'+
 '		<block type="sensor_toque"></block>' +
+'       <block type="bluetooth_connect"></block>' +
 //' 		<block type="sensor_cor"></block>' +
 '	</category>' +
 '    <sep_strong></sep_strong>' +

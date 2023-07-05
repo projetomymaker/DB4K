@@ -164,6 +164,27 @@ Blockly.Arduino['sensor_luz'] = function(block) {
   return [code, Blockly.Arduino.ORDER_CONDITIONAL];
 };
 
+Blockly.Arduino['bluetooth_connect'] = function(block) {
+	var dropdown_rxd = block.getFieldValue('rxd');
+	var dropdown_txd = block.getFieldValue('txd');
+	var value_texto = Blockly.Arduino.valueToCode(block, 'texto', Blockly.Arduino.ORDER_ATOMIC);
+	
+	// Adicione as bibliotecas necessárias
+	Blockly.Arduino.definitions_['define_SoftwareSerial'] = '#include <SoftwareSerial.h>';
+	
+	// Crie uma instância do SoftwareSerial
+	Blockly.Arduino.definitions_['define_bluetooth'] = 'SoftwareSerial myBluetooth(' + dropdown_rxd + ', ' + dropdown_txd + ');';
+	
+	// Inicie o SoftwareSerial no setup()
+	Blockly.Arduino.setups_['setup_bluetooth'] = 'myBluetooth.begin(9600);';
+	
+	// Gere o código para enviar o texto
+	var code = 'myBluetooth.println(' + value_texto + ');\n';
+	
+	return code;
+  };
+  
+  
 
 //*************************************************************************
 //Sensor Temperatura

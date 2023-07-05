@@ -104,6 +104,26 @@ Blockly.Blocks['sensor_luz'] = {
   }
 };
   
+Blockly.Blocks['bluetooth_connect'] = {
+  init: function() {
+  this.appendDummyInput()
+  .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/bluetooth.png", 40, 40, "*"))
+  .appendField("Conectar ao Bluetooth")
+  .appendField("\nPino de Recebimento ")
+  .appendField(new Blockly.FieldDropdown([["Porta 1","porta1"], ["Porta 2","porta2"], ["Porta 3","porta3"]]), "rxd")
+  .appendField("\nPino de Transmissão: ")
+  .appendField(new Blockly.FieldDropdown([["Porta 4","porta4"], ["Porta 5","porta5"], ["Porta 6","porta6"]]), "txd");
+  this.appendValueInput("texto")
+  .setCheck("String")
+  .appendField("Enviar texto");
+  this.setPreviousStatement(true, null);
+  this.setNextStatement(true, null);
+  this.setColour(cor_sensores);
+  this.setTooltip("Estabelece uma conexão Bluetooth e envia texto");
+  this.setHelpUrl("");
+  }
+  };
+
 Blockly.Blocks['sensor_temperatura'] = {
   init: function() {
 	var val_1 = '\u25CB' + "  " + "Baixa";
