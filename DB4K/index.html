@@ -7,6 +7,8 @@
   <meta name="theme-color" content="#00878F">
   <link rel="icon" href="img/db4kimages/icon_db4k.ico"> 
   <title class="translatable_title">MyMaker</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
   <script src="db4k_setup.js"></script>
   <!-->
@@ -579,8 +581,47 @@
     </div>
   </div>
   <!-- ----------------------------------------------------------------------------------------------------------------->
+  <script>
+    // Criar uma conexão com o Socket.IO no servidor
+    var socket = io();
 
+    // Evento de conexão bem-sucedida
+    socket.on('connect', function() {
+      console.log('Conectado');
 
+      // Exemplo de envio de mensagem para o servidor após a conexão
+      socket.emit('mensagem', 'Olá, servidor! Estou conectado.');
+    });
+
+    // Receber mensagem do servidor
+    socket.on('mensagemDoServidor', function(data) {
+      console.log('Mensagem do servidor:', data);
+    });
+
+    // Evento para lidar com desconexões
+    socket.on('disconnect', function() {
+      console.log('Desconectado do servidor.');
+    });
+  </script>
+  <script> // Procurar por placas arduinos conectadas. Executa o comando List toda hora
+    var socket = io('ws://127.0.0.1:8991');
+    socket.on('connect', function () {
+        console.log("Conectado")
+
+        socket.on('message', function(msg){
+            console.log(msg)
+            $('#mensagens').val(msg);
+        });
+    });
+
+    setInterval(function(){
+        socket.emit('command', 'list');
+    }, 2000);
+
+    $('#enviar').click(function(){
+        socket.emit('command', $('#mensagem').val());
+    });
+  </script>
 
 </body>
 
