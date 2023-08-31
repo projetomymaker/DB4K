@@ -65,9 +65,9 @@ Blockly.Blocks['bluetooth_connect'] = {
   .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/bluetooth.png", 40, 40, "*"))
   .appendField("Conectar ao Bluetooth")
   .appendField("\nPino de Recebimento ")
-  .appendField(new Blockly.FieldDropdown([["Porta 1","porta1"], ["Porta 2","porta2"], ["Porta 3","porta3"]]), "rxd")
+  .appendField(new Blockly.FieldDropdown([["Porta 1","1"], ["Porta 2","2"], ["Porta 3","3"]]), "rxd")
   .appendField("\nPino de Transmissão: ")
-  .appendField(new Blockly.FieldDropdown([["Porta 4","porta4"], ["Porta 5","porta5"], ["Porta 6","porta6"]]), "txd");
+  .appendField(new Blockly.FieldDropdown([["Porta 4","4"], ["Porta 5","5"], ["Porta 6","6"]]), "txd");
   this.appendValueInput("texto")
   .setCheck("String")
   .appendField("Enviar texto");
