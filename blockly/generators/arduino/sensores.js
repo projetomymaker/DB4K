@@ -167,7 +167,7 @@ Blockly.Arduino['sensor_luz'] = function(block) {
 Blockly.Arduino['bluetooth_connect'] = function(block) {
 	var dropdown_rxd = block.getFieldValue('rxd');
 	var dropdown_txd = block.getFieldValue('txd');
-	var value_texto = Blockly.Arduino.valueToCode(block, 'texto', Blockly.Arduino.ORDER_ATOMIC);
+	var value_texto = block.getFieldValue('texto');
 	
 	// Adicione as bibliotecas necessárias
 	Blockly.Arduino.definitions_['define_SoftwareSerial'] = '#include <SoftwareSerial.h>';
@@ -179,7 +179,8 @@ Blockly.Arduino['bluetooth_connect'] = function(block) {
 	Blockly.Arduino.setups_['setup_bluetooth'] = 'myBluetooth.begin(9600);';
 	
 	// Gere o código para enviar o texto
-	var code = 'myBluetooth.println(' + value_texto + ');\n';
+	
+		var code = 'myBluetooth.println(' + value_texto + ');\n';
 	
 	return code;
   };
