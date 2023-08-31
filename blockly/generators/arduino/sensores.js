@@ -180,7 +180,7 @@ Blockly.Arduino['bluetooth_connect'] = function(block) {
 	
 	// Gere o código para enviar o texto
 	
-		var code = 'myBluetooth.println(' + value_texto + ');\n';
+		var code = 'myBluetooth.println("' + value_texto + '");\n';
 	
 	return code;
   };
