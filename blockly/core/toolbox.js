@@ -657,6 +657,8 @@ function changeMenuItensColor(){
 		var textomenuCarrinho = document.getElementById(":d.label"); //TextoCarrinho
 		var menuBraco=document.getElementById(":f"); //Braço
 		var textomenuBraco = document.getElementById(":f.label"); //TextoBraço
+    var menuConexao=document.getElementById(":i"); //Braço
+		var textomenuConexao = document.getElementById(":i.label"); //TextoBraço
 
 		//Controla as cores do item LED 
 		textomenuLED.style.color="white";
@@ -698,6 +700,11 @@ function changeMenuItensColor(){
 		menuSom.style.backgroundColor="#0000CC";
 		menuSom.onmouseover=function(){menuSom.style.backgroundColor="#000064"};
 		menuSom.onmouseout=function(){menuSom.style.backgroundColor="#0000CC"};
+
+    textomenuConexao.style.color="white";
+		menuConexao.style.backgroundColor="#F4A460";
+		menuConexao.onmouseover=function(){menuConexao.style.backgroundColor="#f5825a"};
+		menuConexao.onmouseout=function(){menuConexao.style.backgroundColor="#F4A460"};
 
 		};
 		
