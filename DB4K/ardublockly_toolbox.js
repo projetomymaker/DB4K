@@ -24,14 +24,13 @@ Ardublockly.TOOLBOX_XML =
 ' </category>' +
 '  <sep_strong></sep_strong>' +
 '    <category name="LED">' +
-'		<block type="acender_led"></block>' +
-'		<block type="apagar_led"></block>' +
-'		<block type="piscar_led"></block>' +
-'		<block type="led_rgb"></block>' +
+'    <block type="acender_led"></block>' +
 '		<block type="acender_ledS"></block>' +
+'		<block type="apagar_led"></block>' +
 '		<block type="apagar_ledS"></block>' +
+'		<block type="piscar_led"></block>' +
 '		<block type="piscar_ledS"></block>' +
-// '       <block type="piscar_o_cu_bem_devagar"></block>' +
+'		<block type="led_rgb"></block>' +
 '	</category>' +
 '	<sep></sep>' +
 ' 	<category name="Motores">' +
