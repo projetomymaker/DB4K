@@ -82,7 +82,7 @@ Ardublockly.TOOLBOX_XML =
 '		<block type="soltar_objeto"></block>' +
 '		<block type="finalizar_braco"></block>' +
 '	</category>' +
-'    <sep></sep>' +
+'    <sep></sep>' +     
 ' <sep_strong></sep_strong>' +
 '	<category name="Conexão">' +
 '       <block type="bluetooth_connect"></block>' +

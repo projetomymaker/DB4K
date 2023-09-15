@@ -131,7 +131,7 @@ Blockly.Blocks['acender_led'] = {
     this.updateVariableField_(portaLed);
   }
 };
-
+// TODOS OS CODIGOS COM S NA FRENTE SIGNIFICA CODIGO DO SEMAFORO 
 Blockly.Blocks['acender_ledS'] = {
   init: function() {
     this.setHelpUrl('http://www.example.com/');

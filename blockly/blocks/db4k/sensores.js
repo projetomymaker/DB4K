@@ -117,14 +117,17 @@ Blockly.Blocks['sensor_linha'] = {
   init: function() {
 	var val_pouco = '\u25CB' + "  " + "Pouco";
     var val_muito = '\u25CF' +  "  " +  "Muito";
+    var val_medio = '\u25C9' + " " + "Medio";
     var val_direito = "Direito " + '\u25BA';
+    var val_centro = '\u25C9' + " " + "Centro";
     var val_esquerdo = '\u25C4' + " Esquerdo";
+
 	this.setColour(cor_sensores);
     this.appendDummyInput()
 	    .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/sensor_refletancia.png", 40, 40, "*"))
-        .appendField(new Blockly.FieldDropdown([[val_pouco, "POUCO"],[val_muito, "MUITO"]]), "REFLEXO")
+        .appendField(new Blockly.FieldDropdown([[val_pouco, "POUCO"],[val_medio, "MÉDIO"],[val_muito, "MUITO"]]), "REFLEXO")
 		.appendField("Reflexo no lado")
-        .appendField(new Blockly.FieldDropdown([[val_direito, "DIREITA"], [val_esquerdo, "ESQUERDA"]]), "DIRECAO");
+        .appendField(new Blockly.FieldDropdown([[val_direito, "DIREITA"],[val_centro, "CENTRO"], [val_esquerdo, "ESQUERDA"]]), "DIRECAO");
     this.setOutput(true, null);
     this.setTooltip('');
     this.setHelpUrl('http://www.example.com/');
