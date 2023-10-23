@@ -568,48 +568,44 @@ Blockly.Arduino['mover_servomotor'] = function(block) {
 //******************************************************* 
 
 Blockly.Arduino['escrever_lcd'] = function(block) {
-  var texto = block.getFieldValue('texto');
-  var numero_linha = block.getFieldValue('numero_linha');
-  var lcdName = nomeLCD;
- 
-  // TODO: Assemble Arduino into code variable.
-
-  
-  switch(numero_linha) {
-	case '1':
-		var posicao_cursor = lcdName + '.setCursor(0,0);\n';
-		break;
-	case '2':
-		var posicao_cursor = lcdName + '.setCursor(0,1);\n';
-		break;		
-  } 
+	var texto = block.getFieldValue('texto');
+	var numero_linha = block.getFieldValue('numero_linha');
+	var lcdName = nomeLCD;
    
-  Blockly.Arduino.addInclude('lcd', '#include <LiquidCrystal.h>');
+	// TODO: Assemble Arduino into code variable.
+	
+	Blockly.Arduino.addInclude('lcd', '#include <LiquidCrystal.h>');
+	
+	Blockly.Arduino.definitions_['lcd_pino_rs'] ='int lcd_pino_rs = '+ pino_rs +';'
+	Blockly.Arduino.definitions_['lcd_pino_rw'] ='int lcd_pino_rw = '+ pino_rw +';'
+	Blockly.Arduino.definitions_['lcd_pino_enable'] ='int lcd_pino_enable = '+ pino_enable +';'  
+	Blockly.Arduino.definitions_['lcd_pino_dados_4'] ='int lcd_pino_dados_4 = '+ pino_dados_4 +';'  
+	Blockly.Arduino.definitions_['lcd_pino_dados_5'] ='int lcd_pino_dados_5 = '+ pino_dados_5 +';'  
+	Blockly.Arduino.definitions_['lcd_pino_dados_6'] ='int lcd_pino_dados_6 = '+ pino_dados_6 +';'  
+	Blockly.Arduino.definitions_['lcd_pino_dados_7'] ='int lcd_pino_dados_7 = '+ pino_dados_7 +';'  
+	
+	Blockly.Arduino.addDeclaration('lcd','LiquidCrystal ' + lcdName + '(' 
+	+ "lcd_pino_rs" + ',' + "lcd_pino_rw" + ',' + "lcd_pino_enable" + ',' + "lcd_pino_dados_4" + ',' + "lcd_pino_dados_5" + ',' + "lcd_pino_dados_6" + ',' + "lcd_pino_dados_7" +
+	');');
+	
+	var SetupCode1 = nomeSerial + '.begin(' + velocidadeSerial + ');';
+	var SetupCode2 = lcdName + '.begin(' + tamanho_linha_lcd + ',' + numero_linhas_lcd +');'; 
+	Blockly.Arduino.addSetup('lcd',SetupCode1, true);
+	Blockly.Arduino.addSetup('lcd',SetupCode2, true);
   
-  Blockly.Arduino.definitions_['lcd_pino_rs'] ='int lcd_pino_rs = '+ pino_rs +';'
-  Blockly.Arduino.definitions_['lcd_pino_rw'] ='int lcd_pino_rw = '+ pino_rw +';'
-  Blockly.Arduino.definitions_['lcd_pino_enable'] ='int lcd_pino_enable = '+ pino_enable +';'  
-  Blockly.Arduino.definitions_['lcd_pino_dados_4'] ='int lcd_pino_dados_4 = '+ pino_dados_4 +';'  
-  Blockly.Arduino.definitions_['lcd_pino_dados_5'] ='int lcd_pino_dados_5 = '+ pino_dados_5 +';'  
-  Blockly.Arduino.definitions_['lcd_pino_dados_6'] ='int lcd_pino_dados_6 = '+ pino_dados_6 +';'  
-  Blockly.Arduino.definitions_['lcd_pino_dados_7'] ='int lcd_pino_dados_7 = '+ pino_dados_7 +';'  
+	var posicao_cursor;
+	switch(numero_linha) {
+	  case '1':
+		posicao_cursor = lcdName + '.setCursor(0,0);\n';
+		break;
+	  case '2':
+		posicao_cursor = lcdName + '.setCursor(0,1);\n';
+		break;		
+	} 
   
-  Blockly.Arduino.addDeclaration('lcd','LiquidCrystal ' + lcdName + '(' 
-  + "lcd_pino_rs" + ',' + "lcd_pino_rw" + ',' + "lcd_pino_enable" + ',' + "lcd_pino_dados_4" + ',' + "lcd_pino_dados_5" + ',' + "lcd_pino_dados_6" + ',' + "lcd_pino_dados_7" +
-  ');');
-  
-  var SetupCode1 = nomeSerial + '.begin(' + velocidadeSerial + ');';
-  var SetupCode2 = lcdName + '.begin(' + tamanho_linha_lcd + ',' + numero_linhas_lcd +');'; 
-  Blockly.Arduino.addSetup('lcd',SetupCode1, true);
-  Blockly.Arduino.addSetup('lcd',SetupCode2, true);
-  
-
-  var code = posicao_cursor + lcdName + '.print("' + texto + '");\n';
-  return code;
-  
-};
-
-
+	var code = posicao_cursor + lcdName + '.print("' + texto + '");\n';
+	return code;
+  };
 //*******************************************************
 //Apaga o LCD
 //*******************************************************

@@ -64,12 +64,12 @@ var DB4K_valor_margem_temperatura_baixa = 3;
 
 
 //SENSOR_LUZ
-var DB4K_pino_analogico_LDR_luz='A1';
+var DB4K_pino_analogico_LDR_luz='A2';
 var DB4K_valor_margem_luz_alta = 70;
 var DB4K_valor_margem_luz_baixa = 90;
 
 //SENSOR_REFLETANCIA
-var DB4K_tipo_leitura_sensor='a'; //'d' para digital e 'a' para anal�gico
+var DB4K_tipo_leitura_sensor='a'; //'d' para digital e 'a' para anal gico
 var DB4K_pino_analogico_sensor_linha_direito='A2';
 var DB4K_pino_analogico_sensor_linha_esquerdo='A3';
 var DB4K_pino_digital_sensor_linha_direito=2;
@@ -131,7 +131,7 @@ var DB4K_delay_movimento=30;
 //SENSOR COR
 var DB4K_tipo_sensor_cor='TCS_3200';
 var DB4K_sensor_cor_delay_leitura=1000;
-//vari�veis sensor cor LDR; 
+//vari veis sensor cor LDR; 
 var DB4K_pino_analogico_LDR_cor='A2';
 var DB4K_LDR_verde_min=100;
 var DB4K_LDR_verde_max=199;
@@ -143,7 +143,7 @@ var DB4K_LDR_preta_min=400;
 var DB4K_LDR_preta_max=499;
 var DB4K_LDR_branca_min=500;
 var DB4K_LDR_branca_max=599;
-//vari�veis sensor cor TCS3200;
+//vari veis sensor cor TCS3200;
 var DB4K_pino_sensor_TCS3200_S0="NULL";
 var DB4K_pino_sensor_TCS3200_S1="NULL";
 var DB4K_pino_sensor_TCS3200_S2="NULL";
@@ -151,7 +151,7 @@ var DB4K_pino_sensor_TCS3200_S3="NULL";
 var DB4K_pino_sensor_TCS3200_OUT="NULL";
 var DB4K_pino_sensor_TCS3200_OE="NULL";
 var DB4K_pino_sensor_TCS3200_LED="NULL";
-//Adicionais vari�veis sensor cor TCS3200 com Biblioteca
+//Adicionais vari veis sensor cor TCS3200 com Biblioteca
 var DB4K_TCS3200_verde_min=100000;
 var DB4K_TCS3200_verde_max=128000;
 var DB4K_TCS3200_azul_min=132000;
