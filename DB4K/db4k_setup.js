@@ -64,7 +64,7 @@ var DB4K_valor_margem_temperatura_baixa = 3;
 
 
 //SENSOR_LUZ
-var DB4K_pino_analogico_LDR_luz='A2';
+var DB4K_pino_analogico_LDR_luz='A1';
 var DB4K_valor_margem_luz_alta = 70;
 var DB4K_valor_margem_luz_baixa = 90;
 
@@ -132,7 +132,7 @@ var DB4K_delay_movimento=30;
 var DB4K_tipo_sensor_cor='TCS_3200';
 var DB4K_sensor_cor_delay_leitura=1000;
 //vari veis sensor cor LDR; 
-var DB4K_pino_analogico_LDR_cor='A2';
+var DB4K_pino_analogico_LDR_cor='A1;
 var DB4K_LDR_verde_min=100;
 var DB4K_LDR_verde_max=199;
 var DB4K_LDR_vermelha_min=200;
