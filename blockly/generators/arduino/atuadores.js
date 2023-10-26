@@ -104,6 +104,7 @@ var pino_ponto_decimal = DB4K_pino_ponto_decimal;
 //Define pino e outras variáveis para o buzzer
 var pino_buzzer = DB4K_pino_buzzer;
 var tempo_sirene=10;
+var val=0;
 //*****************************************************************************
 
 //*******************************************************
@@ -184,19 +185,23 @@ Blockly.Arduino['acender_ledS'] = function(block) {
   //Troca o Valor Hexadecimal da Cor pelo "pino" Referente à cor
 	  switch(colour_cor_led) {
 		  case '#ff0000':
-					  var pinKey = "pino_led_vermelho";
+						val =0;
+					  var pinKey = "pino_led_vermelhoS";
 					  var pinLed = pinoLedVermelhoS;
-					  Blockly.Arduino.definitions_['pino_led_vermelho'] ='int pino_led_vermelho= '+ pinoLedVermelhoS +';'
+					  Blockly.Arduino.definitions_['pino_led_vermelhoS'] ='int pino_led_vermelhoS= '+ pinoLedVermelhoS +';'
 					  break;
 		  case '#00ff00':
-					  var pinKey = "pino_led_verde";
+					  val=1;	
+					  var pinKey = "pino_led_verdeS";
 					  var pinLed = pinoLedVerdeS;
-					  Blockly.Arduino.definitions_['pino_led_verde'] ='int pino_led_verde= '+ pinoLedVerdeS +';'
-					  break;	
+					  Blockly.Arduino.definitions_['pino_led_verdeS'] ='int pino_led_verdeS= '+ pinoLedVerdeS +';'
+					  break;
+					 
 		  case '#ffff00':
-					  var pinKey = "pino_led_amarelo";
+					  val =0;
+					  var pinKey = "pino_led_amareloS";
 					  var pinLed = pinoLedAmareloS;
-					  Blockly.Arduino.definitions_['pino_led_amarelo'] ='int pino_led_amarelo= '+ pinoLedAmareloS +';'
+					  Blockly.Arduino.definitions_['pino_led_amareloS'] ='int pino_led_amareloS= '+ pinoLedAmareloS +';'
 					  break;
 			  break;		
 	  }
@@ -208,8 +213,16 @@ Blockly.Arduino['acender_ledS'] = function(block) {
 		
 	var pinSetupCode = 'pinMode(' + pinKey + ', OUTPUT);';
 	Blockly.Arduino.addSetup('io_' + pinKey, pinSetupCode, false);
-  
-	var code = 'digitalWrite(' + pinKey + ',' + stateOutput + ');\n';
+
+	switch(val){
+		case 0:
+			var code = 'digitalWrite(' + pinKey + ',' + stateOutput + ');\n';
+			break;
+		case 1:
+			var code = 'analogWrite(' + pinKey + ',' + stateOutput + ');\n';
+			break;
+	}
+		
 	return code;
    
   };
