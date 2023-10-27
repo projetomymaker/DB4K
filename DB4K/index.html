@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00878F">
-  <link rel="icon" href="img/db4kimages/icon_db4k.ico"> 
+  <link rel="icon" href="img/db4kimages/icon_db4k.ico">
   <title class="translatable_title">MyMaker</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -194,7 +194,7 @@
               <li id="menu_example_3"><a href="#!">Girar Motor DC</a></li>
               <li id="menu_example_4"><a href="#!">Escrever no LCD</a></li>
               <!-- <li id="menu_example_5"><a href="#!">Stepper knob</a></li> -->
-              <li id="menu_example_5" style="display:none" ><a href= "#!"></a></li>
+              <li id="menu_example_5" style="display:none"><a href="#!"></a></li>
             </ul>
           </div>
         </li>
@@ -586,7 +586,7 @@
     var socket = io();
 
     // Evento de conexão bem-sucedida
-    socket.on('connect', function() {
+    socket.on('connect', function () {
       console.log('Conectado');
 
       // Exemplo de envio de mensagem para o servidor após a conexão
@@ -594,32 +594,32 @@
     });
 
     // Receber mensagem do servidor
-    socket.on('mensagemDoServidor', function(data) {
+    socket.on('mensagemDoServidor', function (data) {
       console.log('Mensagem do servidor:', data);
     });
 
     // Evento para lidar com desconexões
-    socket.on('disconnect', function() {
+    socket.on('disconnect', function () {
       console.log('Desconectado do servidor.');
     });
   </script>
   <script> // Procurar por placas arduinos conectadas. Executa o comando List toda hora
     var socket = io('ws://127.0.0.1:8991');
     socket.on('connect', function () {
-        console.log("Conectado")
+      console.log("Conectado")
 
-        socket.on('message', function(msg){
-            console.log(msg)
-            $('#mensagens').val(msg);
-        });
+      socket.on('message', function (msg) {
+        console.log(msg)
+        $('#mensagens').val(msg);
+      });
     });
 
-    setInterval(function(){
-        socket.emit('command', 'list');
+    setInterval(function () {
+      socket.emit('command', 'list');
     }, 2000);
 
-    $('#enviar').click(function(){
-        socket.emit('command', $('#mensagem').val());
+    $('#enviar').click(function () {
+      socket.emit('command', $('#mensagem').val());
     });
   </script>
 

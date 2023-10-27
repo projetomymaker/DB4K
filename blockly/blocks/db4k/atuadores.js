@@ -68,7 +68,7 @@ Blockly.Blocks['acender_led'] = {
       .appendField(new Blockly.FieldColour("#ff0000", function (color) { this.sourceBlock_.updateVariableField_(null, color); }), "cor_led");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
-    
+
     this.setTooltip('Acende o LED com a cor indicada.');
 
     this.variableField_ = null; // Variável para rastrear o campo de variável
@@ -575,15 +575,15 @@ Blockly.Blocks['mover_servomotor'] = {
 
 
 Blockly.Blocks['escrever_lcd'] = {
-  init: function() {
+  init: function () {
     this.setHelpUrl('http://www.example.com/');
     this.setColour(cor_lcd);
     this.appendDummyInput()
-        .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/lcd4.png", 40, 40, "*"))
-        .appendField("Escrever")
-        .appendField(new Blockly.FieldTextInput("Oi"), "texto")
-        .appendField("na")
-        .appendField(new Blockly.FieldDropdown([["linha 1", "1"], ["linha 2", "2"]]), "numero_linha");
+      .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/lcd4.png", 40, 40, "*"))
+      .appendField("Escrever")
+      .appendField(new Blockly.FieldTextInput("Oi"), "texto")
+      .appendField("na")
+      .appendField(new Blockly.FieldDropdown([["linha 1", "1"], ["linha 2", "2"]]), "numero_linha");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip('Escreve um texto no display de LCD na linha indicada (Máximo de 16 letras e espaços em cada linha)');
