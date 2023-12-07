@@ -348,68 +348,72 @@ return codigo;
 	
 }
 
-Blockly.Arduino['sensor_linha'] = function(block) {
-  var dropdown_reflexo = block.getFieldValue('REFLEXO');
-  var dropdown_direcao = block.getFieldValue('DIRECAO');
+function codigo_verifica_refletancia() {
+	var codigo =
+	  'int refletancia = 0;\n' +
+	  'for (int i = 0; i < 10; ++i) {\n' +
+	  '  refletancia = analogRead(pino_sensor_reflexo) + refletancia;\n' +
+	  '}\n' +
+	  'refletancia = refletancia / 10;\n' +
+	  'return refletancia;\n';
   
-  if (tipo_leitura_sensor == 'a'){	  
-		  //Declara a função que verifica a refletancia 
-		  var nome_funcao = 'verifica_refletancia' ;
-		  var func = ['\n'+'int ' + Blockly.Arduino.DEF_FUNC_NAME + '(int pino_sensor_reflexo)\n{\n' +
-		  codigo_verifica_refletancia() + '}\n']; 
-		  var funcName = Blockly.Arduino.addFunction(nome_funcao, func.join('\n'));	
-		  //
-		  var pino_sensor_linha_direito = pino_analogico_sensor_linha_direito;
-		  var pino_sensor_linha_esquerdo = pino_analogico_sensor_linha_esquerdo;
-		  if(dropdown_direcao == 'DIREITA'){
-		  Blockly.Arduino.definitions_['referencia_reflexo_direita'] ='int referencia_reflexo_direita;';
-		  Blockly.Arduino.definitions_['pino_seguidor_direita'] = 'int pino_seguidor_direita = ' +  pino_sensor_linha_direito +';';
-		  Blockly.Arduino.addSetup('io_' + "referencia_reflexo_direita", 'referencia_reflexo_direita = '+ funcName + '(pino_seguidor_direita);', false);
-		  if(dropdown_reflexo == 'MUITO'){
-				var code = 'analogRead(pino_seguidor_direita) > referencia_reflexo_direita + ' + valor_margem_refletancia_alta;
-			}
-			else if(dropdown_reflexo == 'POUCO'){
-				var code = 'analogRead(pino_seguidor_direita) < referencia_reflexo_direita - ' + valor_margem_refletancia_baixa;
-			}
-		  } else if(dropdown_direcao == 'ESQUERDA'){	  
-		  Blockly.Arduino.definitions_['referencia_reflexo_esquerda'] ='int referencia_reflexo_esquerda;';
-		  Blockly.Arduino.definitions_['pino_seguidor_esquerda'] = 'int pino_seguidor_esquerda = ' + pino_sensor_linha_esquerdo +';';		  
-		  Blockly.Arduino.addSetup('io_' + "referencia_reflexo_esquerda", 'referencia_reflexo_esquerda = '+ funcName + '(pino_seguidor_esquerda);', false);	   
-			if(dropdown_reflexo == 'MUITO'){
-				var code = 'analogRead(pino_seguidor_esquerda) > referencia_reflexo_esquerda + ' + valor_margem_refletancia_alta;
-			}
-			else if(dropdown_reflexo == 'POUCO'){
-				var code = 'analogRead(pino_seguidor_esquerda) < referencia_reflexo_esquerda - ' + valor_margem_refletancia_baixa;
-			}
-		  }
-  } else {
-      var pino_sensor_linha_direito = pino_digital_sensor_linha_direito;
-	  var pino_sensor_linha_esquerdo = pino_digital_sensor_linha_esquerdo;	 
-      if(dropdown_direcao == 'DIREITA'){	  
-		  var pinSetupSensorReflexoDireita = 'pinMode(' + "pino_seguidor_direita" + ', INPUT);';
-		  Blockly.Arduino.addSetup('io_' + "pino_seguidor_direita", pinSetupSensorReflexoDireita, false);
-		  Blockly.Arduino.definitions_['pino_seguidor_direita'] = 'int pino_seguidor_direita = ' +  pino_sensor_linha_direito +';';
-		  //código
-		  if(dropdown_reflexo == 'MUITO'){
-			 var code = 'digitalRead (' + pino_sensor_linha_direito + ')== 0';
-		  }else if(dropdown_reflexo == 'POUCO'){
-			  var code = 'digitalRead (' + pino_sensor_linha_direito + ')== 1';
-		  }
-	  }else if(dropdown_direcao == 'ESQUERDA'){
-		  var pinSetupSensorReflexoEsquerda = 'pinMode(' + "pino_seguidor_esquerda" + ', INPUT);'; 
-		  Blockly.Arduino.definitions_['pino_seguidor_esquerda'] = 'int pino_seguidor_esquerda = ' + pino_sensor_linha_esquerdo +';';
-		  Blockly.Arduino.addSetup('io_' + "pino_seguidor_esquerda", pinSetupSensorReflexoEsquerda, false);
-		  //código
-		  if(dropdown_reflexo == 'MUITO'){
-			 var code = 'digitalRead (' + pino_sensor_linha_esquerdo + ')== 0';
-		  } else if(dropdown_reflexo == 'POUCO'){
-		    var code = 'digitalRead (' + pino_sensor_linha_esquerdo + ')== 1';
-		  }
-	  }
+	return codigo;
   }
-  return [code, Blockly.Arduino.ORDER_CONDITIONAL];	  
+  
+  Blockly.Arduino['sensor_linha'] = function (block) {
+	var dropdown_reflexo = block.getFieldValue('REFLEXO');
+	var dropdown_direcao = block.getFieldValue('DIRECAO');
+  
+	if (tipo_leitura_sensor == 'a') {
+	  // Declara a função que verifica a refletancia
+	  var nome_funcao = 'verifica_refletancia';
+	  var func = ['\n' + 'int ' + Blockly.Arduino.DEF_FUNC_NAME + '(int pino_sensor_reflexo)\n{\n' +
+		codigo_verifica_refletancia() + '}\n'];
+	  var funcName = Blockly.Arduino.addFunction(nome_funcao, func.join('\n'));
+  
+	  var pino_sensor_linha_direito = pino_analogico_sensor_linha_direito;
+	  var pino_sensor_linha_esquerdo = pino_analogico_sensor_linha_esquerdo;
+  
+	  if (dropdown_direcao == 'DIREITA') {
+		Blockly.Arduino.definitions_['referencia_reflexo_direita'] = 'int referencia_reflexo_direita;';
+		Blockly.Arduino.definitions_['pino_seguidor_direita'] = 'int pino_seguidor_direita = ' + pino_sensor_linha_direito + ';';
+		Blockly.Arduino.addSetup('io_' + 'referencia_reflexo_direita', 'referencia_reflexo_direita = ' + funcName + '(pino_seguidor_direita);', false);
+  
+		if (dropdown_reflexo == 'MUITO') {
+		  var code = 'analogRead(pino_seguidor_direita) > referencia_reflexo_direita + ' + valor_margem_refletancia_alta;
+		} else if (dropdown_reflexo == 'POUCO') {
+		  var code = 'analogRead(pino_seguidor_direita) < referencia_reflexo_direita - ' + valor_margem_refletancia_baixa;
+		} else if (dropdown_reflexo == 'MÉDIO') {
+		  var code = '(analogRead(pino_seguidor_direita) >= referencia_reflexo_direita - ' + valor_margem_refletancia_baixa + ' && ' +
+			'analogRead(pino_seguidor_direita) <= referencia_reflexo_direita + ' + valor_margem_refletancia_alta + ')';
+		}
+	  } else if (dropdown_direcao == 'ESQUERDA') {
+		Blockly.Arduino.definitions_['referencia_reflexo_esquerda'] = 'int referencia_reflexo_esquerda;';
+		Blockly.Arduino.definitions_['pino_seguidor_esquerda'] = 'int pino_seguidor_esquerda = ' + pino_sensor_linha_esquerdo + ';';
+		Blockly.Arduino.addSetup('io_' + 'referencia_reflexo_esquerda', 'referencia_reflexo_esquerda = ' + funcName + '(pino_seguidor_esquerda);', false);
+  
+		if (dropdown_reflexo == 'MUITO') {
+		  var code = 'analogRead(pino_seguidor_esquerda) > referencia_reflexo_esquerda + ' + valor_margem_refletancia_alta;
+		} else if (dropdown_reflexo == 'POUCO') {
+		  var code = 'analogRead(pino_seguidor_esquerda) < referencia_reflexo_esquerda - ' + valor_margem_refletancia_baixa;
+		} else if (dropdown_reflexo == 'MÉDIO') {
+		  var code = '(analogRead(pino_seguidor_esquerda) >= referencia_reflexo_esquerda - ' + valor_margem_refletancia_baixa + ' && ' +
+			'analogRead(pino_seguidor_esquerda) <= referencia_reflexo_esquerda + ' + valor_margem_refletancia_alta + ')';
+		}
+	  } else if (dropdown_direcao == 'CENTRO') {
+		// Adapte conforme necessário para o seu projeto
+		var margem_centro = 10; // Valor de margem para considerar como "Centro"
+		var code = '(analogRead(pino_seguidor_direita) >= referencia_reflexo_direita - ' + margem_centro + ' && ' +
+		  'analogRead(pino_seguidor_direita) <= referencia_reflexo_direita + ' + margem_centro + ' && ' +
+		  'analogRead(pino_seguidor_esquerda) >= referencia_reflexo_esquerda - ' + margem_centro + ' && ' +
+		  'analogRead(pino_seguidor_esquerda) <= referencia_reflexo_esquerda + ' + margem_centro + ')';
+	  }
+	} else {
+	  // ... (Código para leitura digital)
+	}
+	return [code, Blockly.Arduino.ORDER_CONDITIONAL];
+  };
 
-};
 
 
 //*****************************************************************
