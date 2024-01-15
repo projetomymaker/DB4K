@@ -618,25 +618,13 @@ Blockly.Arduino['limpar_lcd'] = function (block) {
 	// TODO: Assemble JavaScript into code variable.
 	var lcdName = nomeLCD
 
-	Blockly.Arduino.addInclude('lcd', '#include <LiquidCrystal.h>');
+	Blockly.Arduino.addInclude('wire', '#include <Wire.h>');
+	Blockly.Arduino.addInclude('lcd', '#include <LiquidCrystal_I2C.h>');
 
+	Blockly.Arduino.addDeclaration('lcd', 'LiquidCrystal_I2C lcd(0x27, 16, 2);');
 
-	Blockly.Arduino.definitions_['lcd_pino_rs'] = 'int lcd_pino_rs = ' + pino_rs + ';'
-	Blockly.Arduino.definitions_['lcd_pino_rw'] = 'int lcd_pino_rw = ' + pino_rw + ';'
-	Blockly.Arduino.definitions_['lcd_pino_enable'] = 'int lcd_pino_enable = ' + pino_enable + ';'
-	Blockly.Arduino.definitions_['lcd_pino_dados_4'] = 'int lcd_pino_dados_4 = ' + pino_dados_4 + ';'
-	Blockly.Arduino.definitions_['lcd_pino_dados_5'] = 'int lcd_pino_dados_5 = ' + pino_dados_5 + ';'
-	Blockly.Arduino.definitions_['lcd_pino_dados_6'] = 'int lcd_pino_dados_6 = ' + pino_dados_6 + ';'
-	Blockly.Arduino.definitions_['lcd_pino_dados_7'] = 'int lcd_pino_dados_7 = ' + pino_dados_7 + ';'
-
-	Blockly.Arduino.addDeclaration('lcd', 'LiquidCrystal ' + lcdName + '('
-		+ "lcd_pino_rs" + ',' + "lcd_pino_rw" + ',' + "lcd_pino_enable" + ',' + "lcd_pino_dados_4" + ',' + "lcd_pino_dados_5" + ',' + "lcd_pino_dados_6" + ',' + "lcd_pino_dados_7" +
-		');');
-
-	var SetupCode1 = nomeSerial + '.begin(' + velocidadeSerial + ');';
-	var SetupCode2 = lcdName + '.begin(' + tamanho_linha_lcd + ',' + numero_linhas_lcd + ');';
+	var SetupCode1 = lcdName + '.init();\n' + lcdName +'.backlight();\n'+ lcdName + '.clear();';
 	Blockly.Arduino.addSetup('lcd', SetupCode1, true);
-	Blockly.Arduino.addSetup('lcd', SetupCode2, true);
 
 	var code = lcdName + '.clear();\n';
 	return code;
