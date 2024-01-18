@@ -9,22 +9,24 @@ O executável DB4K, desenvolvido para sistemas Linux e compatível com distribui
     Use o `menu de aplicativos`, ou o atalho: `CTRL + ALT + T`
 
 -   **_Baixe o pacote debian_**
+
     ```bash
     wget https://github.com/rodriguesxxx/DB4K-Linux/blob/main/linux/db4k.deb
     ```
+
     //atualize link quando for feito o merge
 
 -   **_Instale o pacote_**
     ```bash
     sudo dpkg -i db4k.deb
     ```
-    
 -   **_Apague o pacote_**
     ```bash
     rm -rf db4k.deb
     ```
 
-Caso não consiga, veja o <a href="tutorias/install-to-github.webm">tutorial por vídeo</a>.
+Caso não consiga, veja o <a href="tutorias/install-to-github.mp4">tutorial por vídeo</a>.
 
 ## Executando
+
 Basta acessar o `menu de aplicativos` para executar o `DB4K - MyMaker`
