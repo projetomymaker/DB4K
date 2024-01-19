@@ -18,10 +18,16 @@ if ! command -v python2 &> /dev/null; then #CASO NÃO ESTEJA, ISTALA.
 
 fi
 
-#CHECA SE O REPO JÁ FOI CLONADO 
-if ! [ -e "./DB4K" ]; then #CASO NÃO TENHA SIDO, FAZ O GIT CLONE
-    git clone https://github.com/projetomymaker/DB4K
+# CHECA SE O REPO JÁ FOI CLONADO 
+if [ ! -e "./DB4K" ]; then
+    git --version >/dev/null 2>&1 
+    GIT_IS_INSTALLED=$?
 
+    if [ $GIT_IS_INSTALLED -ne 0 ]; then
+        sudo apt-get install git
+    fi
+    
+    git clone https://github.com/projetomymaker/DB4K
 fi
 
 # RODA O PROJETO
