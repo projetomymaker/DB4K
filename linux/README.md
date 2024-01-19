@@ -11,7 +11,7 @@ O executável DB4K, desenvolvido para sistemas Linux e compatível com distribui
 -   **_Baixe o pacote debian_**
 
     ```bash
-    wget https://github.com/rodriguesxxx/DB4K-Linux/blob/main/linux/db4k.deb
+    wget https://github.com/rodriguesxxx/DB4K-Linux/raw/main/linux/db4k.deb
     ```
 
     //atualize link quando for feito o merge
