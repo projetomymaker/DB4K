@@ -24,8 +24,11 @@ O executável DB4K, desenvolvido para sistemas Linux e compatível com distribui
     ```bash
     rm -rf db4k.deb
     ```
-
-Caso não consiga, veja o <a href="tutorias/install-to-github.mp4">tutorial por vídeo</a>.
+-   **_Instale as dependências necessárias_**
+    ```bash
+    db4k.sh
+    ```
+    Caso não consiga, veja o <a href="tutorias/install-to-github.mp4">tutorial por vídeo</a>.
 
 ## Executando
 
