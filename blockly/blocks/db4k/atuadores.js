@@ -581,7 +581,7 @@ Blockly.Blocks['escrever_lcd'] = {
     this.appendDummyInput()
       .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/lcd4.png", 40, 40, "*"))
       .appendField("Escrever")
-      .appendField(new Blockly.FieldTextInput("Oi"), "texto")
+      .appendField(new Blockly.FieldTextInput("Aoba"), "texto")
       .appendField("na")
       .appendField(new Blockly.FieldDropdown([["linha 1", "1"], ["linha 2", "2"]]), "numero_linha");
     this.setPreviousStatement(true);
