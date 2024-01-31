@@ -1,10 +1,10 @@
-int pino_led_amarelo= 4;
+int pino_led_vermelho= 9;
 
 void setup() {
-  pinMode(pino_led_amarelo, OUTPUT);
+  pinMode(pino_led_vermelho, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(pino_led_amarelo,HIGH);
+  digitalWrite(pino_led_vermelho,LOW);
 
 }

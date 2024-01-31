@@ -583,7 +583,7 @@
   <!-- ----------------------------------------------------------------------------------------------------------------->
   <script>
     // Criar uma conexão com o Socket.IO no servidor
-    var socket = io();
+    var socket = io.connect();
 
     // Evento de conexão bem-sucedida
     socket.on('connect', function() {
