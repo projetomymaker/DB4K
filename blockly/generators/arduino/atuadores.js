@@ -590,7 +590,6 @@ Blockly.Arduino['escrever_lcd'] = function(block) {
 <<<<<<< HEAD
 
 	Blockly.Arduino.addInclude('wire', '#include <Wire.h>');
-	Blockly.Arduino.addInclude('wire', '#include <Wire.h>');
 	Blockly.Arduino.addInclude('lcd', '#include <LiquidCrystal_I2C.h>');
 
 	Blockly.Arduino.addDeclaration('lcd', 'LiquidCrystal_I2C lcd(0x27, 16, 2);');
