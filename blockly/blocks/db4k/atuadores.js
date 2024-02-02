@@ -581,6 +581,7 @@ Blockly.Blocks['escrever_lcd'] = {
     this.appendDummyInput()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/lcd4.png", 40, 40, "*"))
       .appendField("Escrever")
       .appendField(new Blockly.FieldTextInput("Oi"), "texto")
@@ -589,12 +590,17 @@ Blockly.Blocks['escrever_lcd'] = {
 =======
 =======
 >>>>>>> parent of 580c158 (Formatação Código)
+=======
+>>>>>>> parent of 580c158 (Formatação Código)
         .appendField(new Blockly.FieldImage("../blockly/blocks/db4k/icons/lcd4.png", 40, 40, "*"))
         .appendField("Escrever")
         .appendField(new Blockly.FieldTextInput("Oi"), "texto")
         .appendField("na")
         .appendField(new Blockly.FieldDropdown([["linha 1", "1"], ["linha 2", "2"]]), "numero_linha");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 580c158 (Formatação Código)
+=======
 >>>>>>> parent of 580c158 (Formatação Código)
 =======
 >>>>>>> parent of 580c158 (Formatação Código)
