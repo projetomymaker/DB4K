@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+
+
+TARGET_USER=$(logname)
+
+wget -O "/usr/share/icons/db4k.png" "https://projetomymaker.github.io/DB4K/DB4K/img/db4kimages/logo_db4k_inicio.png"
+
+DESKTOP_DIR="/home/$TARGET_USER/Área de Trabalho"
+if [ ! -d "$DESKTOP_DIR" ]; then
+    DESKTOP_DIR="/home/$TARGET_USER"
+fi
+
+XDG_DESKTOP_DIR="/home/$TARGET_USER/.local/share/applications"
+echo -e "[Desktop Entry]\nName=DB4K - MyMaker\nExec=db4k.sh\nType=Application\nIcon=/usr/share/icons/db4k.png" > "$XDG_DESKTOP_DIR/db4k.desktop"
+chmod +x "$XDG_DESKTOP_DIR/db4k.desktop"
+
+exit 0

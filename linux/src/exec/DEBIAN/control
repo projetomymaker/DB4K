@@ -1,0 +1,7 @@
+Package: db4k
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Daniel Rodrigues <rodriguesx.daniel89@gmail.com>
+Description: package for running the db4k IFNMG program
