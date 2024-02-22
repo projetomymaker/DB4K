@@ -161,8 +161,8 @@ class ServerCompilerSettings(object):
     compiler_dir = property(get_compiler_dir, set_compiler_dir)
 
     def set_compiler_dir_default(self):
-        # Set were the default directory fot the compiler
-        self.__compiler_dir = 'C:\\"Program Files (x86)"\\Arduino\\arduino_debug.exe'
+        # Set here the default directory fot the compiler
+        self.__compiler_dir = 'C:\\Program Files (x86)\\Arduino\\arduino_debug.exe'
 
     def set_compiler_dir_from_file(self, new_compiler_dir):
         """Set the compiler location, must be full path to an existing file."""
